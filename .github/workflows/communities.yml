@@ -5,10 +5,9 @@ on:
   schedule:
     - cron: "12 6 * * *"   # denně 06:12 UTC
 
-# DŮLEŽITÉ: oprávnění pro Pages deployment
 permissions:
-  contents: read
-  pages: write
+  contents: write     # kvůli commit/push do main
+  pages: write        # kvůli Pages deploy
   id-token: write
 
 concurrency:
@@ -16,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-and-commit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -30,32 +29,87 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests markdown
 
-      - name: Run script
+      - name: Run script (generates nrp_by_community.md)
         run: |
-          python communities.py   # vytvoří nrp_by_community.md
+          python communities.py
 
-      - name: Install pandoc
+      - name: Commit report to main (only if changed)
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nrp_by_community.md || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Update report: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          else
+            echo "No changes to commit."
+          fi
 
-      - name: Build site (Markdown -> HTML)
+      - name: Build static HTML (no pandoc)
         run: |
-          mkdir public
-          pandoc nrp_by_community.md -o public/index.html --standalone --metadata title="Communities report"
+          python - << 'PY'
+          import pathlib, markdown, datetime
+          md = pathlib.Path("nrp_by_community.md").read_text(encoding="utf-8")
+          body = markdown.markdown(md, extensions=["tables"])
+          now = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+          html_out = f"""<!doctype html>
+          <html lang="cs">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>NRP Communities report</title>
+            <style>
+              :root {{
+                --bg: #ffffff; --fg: #1f2937; --muted: #6b7280; --link: #2563eb;
+                --border: #e5e7eb; --stripe: #fafafa;
+              }}
+              @media (prefers-color-scheme: dark) {{
+                :root {{
+                  --bg: #0b0f14; --fg: #e5e7eb; --muted: #9ca3af; --link: #60a5fa;
+                  --border: #1f2937; --stripe: #0f141b;
+                }}
+              }}
+              html,body{{background:var(--bg);color:var(--fg);margin:0;
+                font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+                line-height:1.55}}
+              .wrap{{max-width:1100px;margin:2rem auto;padding:0 1rem}}
+              h1{{margin:0 0 .5rem}}
+              .meta{{color:var(--muted);margin:.25rem 0 1.25rem}}
+              a{{color:var(--link);text-decoration:none}} a:hover{{text-decoration:underline}}
+              table{{width:100%;border-collapse:collapse;border:1px solid var(--border);border-radius:12px;overflow:hidden;font-size:.95rem}}
+              thead th{{text-align:left;background:var(--stripe);border-bottom:1px solid var(--border);padding:.75rem .85rem;font-weight:600}}
+              tbody td{{border-bottom:1px solid var(--border);padding:.65rem .85rem;vertical-align:top}}
+              tbody tr:nth-child(even) td{{background:color-mix(in srgb, var(--stripe) 60%, transparent)}}
+              td:last-child a{{word-break:break-word}}
+              code{{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}}
+              .footer{{margin-top:2rem;color:var(--muted);font-size:.9rem}}
+            </style>
+          </head>
+          <body>
+            <main class="wrap">
+              <h1>NRP Communities report</h1>
+              <div class="meta">Publikováno: {now}</div>
+              {body}
+              <p class="footer">Generováno GitHub Actions z <code>nrp_by_community.md</code>.</p>
+            </main>
+          </body>
+          </html>"""
+          out = pathlib.Path("public"); out.mkdir(exist_ok=True)
+          (out / "index.html").write_text(html_out, encoding="utf-8")
+          PY
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload artifact (site)
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
   deploy:
-    needs: build
+    needs: build-and-commit
     runs-on: ubuntu-latest
     environment:
       name: github-pages
