@@ -124,7 +124,7 @@ def fetch_5_newest_links(cid):
 def main():
     ids, titles = collect_community_ids()
     lines = []
-    lines.append("# Přehled komunit a záznamů \n")
+    lines.append("## Přehled komunit a záznamů \n")
     lines.append(f"_Seznam komunit: {COMMUNITIES_URL}_\n")
     lines.append("| Komunita (ID) | Název | Počet datasetů | Ukázky (5 nejnovějších) |")
     lines.append("|---|---|---:|---|")
