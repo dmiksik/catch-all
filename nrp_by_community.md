@@ -1,8 +1,8 @@
-## Přehled komunit a záznamů 
+## Communities and Records Overview 
 
-_Seznam komunit: https://data.narodni-repozitar.cz/communities/_
+_Source: https://data.narodni-repozitar.cz_
 
-| Komunita (ID) | Název | Počet datasetů | Ukázky (5 nejnovějších) |
+| Community (ID) | Name | Records | Links (5 newest) |
 |---|---|---:|---|
 | `digitalia` | Digitalia Community | 0 | — |
 | `general` | General community | 59 | [07r8s-r5w86](https://data.narodni-repozitar.cz/general/datasets/07r8s-r5w86)<br>[0jx0g-xtx27](https://data.narodni-repozitar.cz/general/datasets/0jx0g-xtx27)<br>[0y0y6-v0783](https://data.narodni-repozitar.cz/general/datasets/0y0y6-v0783)<br>[22tnm-a7084](https://data.narodni-repozitar.cz/general/datasets/22tnm-a7084)<br>[2aqm7-66s35](https://data.narodni-repozitar.cz/general/datasets/2aqm7-66s35) |
