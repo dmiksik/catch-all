@@ -1,17 +1,16 @@
 name: Build communities report
 
 on:
-  workflow_dispatch: {}          # ruční spuštění v UI
+  workflow_dispatch: {}
   schedule:
-    - cron: "12 6 * * *"         # volitelné: denně v 06:12 UTC (≈ 08:12 CET/CEST)
+    - cron: "12 6 * * *"   # denně 06:12 UTC
 
 permissions:
-  contents: write                # aby šel udělat commit/push
+  contents: write
 
 jobs:
-  run-script-and-commit:
+  build-and-commit:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,7 +29,7 @@ jobs:
         run: |
           python communities.py
 
-      - name: Commit changes (if any)
+      - name: Commit report to main
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -38,7 +37,26 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Update report: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
             git push
-          else
-            echo "No changes to commit."
           fi
 
+  deploy-pages:
+    needs: build-and-commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Convert Markdown to HTML
+        run: |
+          pandoc nrp_by_community.md -o index.html --standalone
+          mkdir public
+          mv index.html public/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
