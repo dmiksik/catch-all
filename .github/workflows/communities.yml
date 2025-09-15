@@ -136,7 +136,7 @@ jobs:
 
           # volitelně vytvoř domovskou stránku s odkazem (jen pokud neexistuje)
           if [ ! -f wiki/Home.md ]; then
-            printf "# Home\n\n* [[NRP Communities]]\n" > wiki/Home.md
+            printf "# Home\n\n* [[Catch‐all Communities]]\n" > wiki/Home.md
           fi
 
       # 4) Commit & push do wiki
