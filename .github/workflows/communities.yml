@@ -109,50 +109,47 @@ jobs:
           path: ./public
 
   publish-wiki:
-    needs: build-and-commit
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write   # potřebujeme push do .wiki repozitáře
-    steps:
-      # 1) Checkout main repa, aby byl k dispozici soubor nrp_by_community.md
-      - name: Checkout main repo
-        uses: actions/checkout@v4
+  needs: build-and-commit
+  runs-on: ubuntu-latest
+  permissions:
+    contents: write   # potřebujeme push do .wiki repozitáře
+  steps:
+    - name: Checkout main repo
+      uses: actions/checkout@v4
 
-      # 2) Checkout Wiki repa do podadresáře "wiki/"
-      - name: Checkout wiki repo
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ github.repository }}.wiki
-          path: wiki
-          token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout wiki repo
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ github.repository }}.wiki
+        path: wiki
+        ref: master                 # 🔹 ujisti se, že pracujeme na master (Wiki)
+        token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 3) Zkopíruj report do Wiki jako novou stránku (název = titulek stránky)
-      - name: Copy report into wiki
-        run: |
-          set -euo pipefail
-          # název wiki stránky – může obsahovat mezery, přípona .md je nutná
-          PAGE="Catch‐all Communities.md"
-          cp -f nrp_by_community.md "wiki/${PAGE}"
+    - name: Copy report into wiki
+      run: |
+        set -euo pipefail
+        # název wiki stránky – stabilní a s ASCII pomlčkou
+        PAGE="Catch-all Communities.md"
+        cp -f nrp_by_community.md "wiki/${PAGE}"
 
-          # volitelně vytvoř domovskou stránku s odkazem (jen pokud neexistuje)
-          if [ ! -f wiki/Home.md ]; then
-            printf "# Home\n\n* [[Catch‐all Communities]]\n" > wiki/Home.md
-          fi
+        # vytvoř domovskou stránku s odkazem (jen pokud neexistuje)
+        if [ ! -f wiki/Home.md ]; then
+          printf "# Home\n\n* [[Catch-all Communities]]\n" > wiki/Home.md
+        fi
 
-      # 4) Commit & push do wiki
-      - name: Commit & push wiki
-        run: |
-          set -euo pipefail
-          cd wiki
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if ! git diff --cached --quiet; then
-            git commit -m "Update NRP Communities report (from Actions)"
-            git push
-          else
-            echo "No wiki changes to commit."
-          fi
+    - name: Commit & push wiki
+      run: |
+        set -euo pipefail
+        cd wiki
+        git config user.name  "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add -A
+        if ! git diff --cached --quiet; then
+          git commit -m "Update NRP Communities report (from Actions)"
+          git push origin master      # 🔹 explicitně push na master
+        else
+          echo "No wiki changes to commit."
+        fi
 
   deploy:
     needs: build-and-commit
