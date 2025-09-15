@@ -1,4 +1,4 @@
-# Přehled komunit a záznamů (zdroj: přesně dané API URL)
+# Přehled komunit a záznamů 
 
 _Seznam komunit: https://data.narodni-repozitar.cz/communities/_
 
