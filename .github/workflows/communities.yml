@@ -131,7 +131,7 @@ jobs:
         run: |
           set -euo pipefail
           # název wiki stránky – může obsahovat mezery, přípona .md je nutná
-          PAGE="Home.md"
+          PAGE="Catch‐all Communities.md"
           cp -f nrp_by_community.md "wiki/${PAGE}"
 
           # volitelně vytvoř domovskou stránku s odkazem (jen pokud neexistuje)
