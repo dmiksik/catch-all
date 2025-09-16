@@ -100,7 +100,7 @@ def record_link(r):
 
 def fetch_5_newest_links(cid):
     # 1) zkus server-side sort
-    url_sorted = f"{BASE}/{cid}/datasets/all/?{urlencode({'sort':'newest'})}"
+    url_sorted = f"{BASE}/{cid}/datasets/all/?{urlencode({'sort':'-by_available'})}"
     data = safe_get_json(url_sorted)
     hits, total = normalize_hits(data)
 
