@@ -78,7 +78,7 @@ jobs:
               h1{{margin:0 0 .5rem}}
               .meta{{color:var(--muted);margin:.25rem 0 1.25rem}}
               a{{color:var(--link);text-decoration:none}} a:hover{{text-decoration:underline}}
-              table{{width:100%;border-collapse:collapse;border:1px solid var(--border);border-radius:12px;overflow:hidden;font-size:.95rem}}
+              table{{width:100%;border-collapse:collapse;border:1px solid var(--border);border-radius:12px;overflow:hidden;font-size:1rem}}
               thead th{{text-align:left;background:var(--stripe);border-bottom:1px solid var(--border);padding:.75rem .85rem;font-weight:600}}
               tbody td{{border-bottom:1px solid var(--border);padding:.65rem .85rem;vertical-align:top}}
               tbody tr:nth-child(even) td{{background:color-mix(in srgb, var(--stripe) 60%, transparent)}}
