@@ -1,3 +1,5 @@
+# communities.py
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import requests, json, re, sys, datetime
@@ -83,9 +85,10 @@ def record_id(r):
     md = r.get("metadata", {}) if isinstance(r, dict) else {}
     return (r.get("id") if isinstance(r, dict) else None) or md.get("id")
 
-def record_updated(r):
+# --- NEW: preferuj metadata.dateAvailable pro chronologii publikování ---
+def record_available_date(r):
     md = r.get("metadata", {}) if isinstance(r, dict) else {}
-    return (r.get("updated") if isinstance(r, dict) else None) or md.get("updated") or md.get("publication_date")
+    return md.get("dateAvailable")  # např. "2025-02-13"
 
 def record_link(r):
     # preferuj self_html, pak fallback /records/<id>
@@ -99,15 +102,15 @@ def record_link(r):
     return None
 
 def fetch_5_newest_links(cid):
-    # 1) zkus server-side sort
+    # 1) zkus server-side sort (ponecháno beze změny)
     url_sorted = f"{BASE}/{cid}/datasets/all/?{urlencode({'sort':'-by_available'})}"
     data = safe_get_json(url_sorted)
     hits, total = normalize_hits(data)
 
-    # 2) pokud to nevypadá seřazené, seřaď klientsky
+    # 2) pokud to nevypadá seřazené, seřaď klientsky podle dateAvailable
     def key_dt(r):
-        return parse_dt(record_updated(r)) or datetime.datetime.min
-    # rozumný limit — není-li moc záznamů, je to OK; když jich je hodně, bere se top 5 po sortu
+        return parse_dt(record_available_date(r)) or datetime.datetime.min
+
     hits_sorted = sorted(hits, key=key_dt, reverse=True)[:5] if hits else []
 
     # vytvoř markdown odkazy s ID jako textem
@@ -140,4 +143,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
