@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.ticker import StrMethodFormatter  # added
 from pathlib import Path
 
 PARQUET = "nrp_dump/records_flat.parquet"
@@ -29,10 +30,19 @@ else:
     bins = np.geomspace(xmin, xmax, 50)
 
 plt.hist(sizes_gb, bins=bins, edgecolor="black")
-plt.xscale("log")
+
+# POŽADAVEK: hlavní značky 0.1, 1, 10, 100, ...
+ax = plt.gca()
+ax.set_xscale("log")
+lo = int(np.floor(np.log10(xmin)))
+hi = int(np.ceil(np.log10(xmax)))
+major_ticks = [10 ** k for k in range(lo, hi + 1)]
+ax.set_xticks(major_ticks)
+ax.xaxis.set_major_formatter(StrMethodFormatter("{x:g}"))
+
 plt.xlabel("Dataset size [GB] (log scale)")
 plt.ylabel("Number of datasets")
-plt.title("Distribution of dataset sizes (NRP)")
+plt.title("Distribution of dataset sizes (catch-all)")
 plt.tight_layout()
 hist_path = OUT_DIR / "size_histogram.png"
 plt.savefig(hist_path, dpi=150)
@@ -47,10 +57,19 @@ sizes_sorted = np.sort(sizes_gb.values)
 cdf = np.arange(1, len(sizes_sorted) + 1) / len(sizes_sorted)
 
 plt.plot(sizes_sorted, cdf)
-plt.xscale("log")
+
+# POŽADAVEK: hlavní značky 0.1, 1, 10, 100, ... (stejně jako u histogramu)
+ax = plt.gca()
+ax.set_xscale("log")
+lo2 = int(np.floor(np.log10(xmin)))
+hi2 = int(np.ceil(np.log10(xmax)))
+major_ticks2 = [10 ** k for k in range(lo2, hi2 + 1)]
+ax.set_xticks(major_ticks2)
+ax.xaxis.set_major_formatter(StrMethodFormatter("{x:g}"))
+
 plt.xlabel("Dataset size [GB] (log scale)")
 plt.ylabel("Cumulative fraction of records")
-plt.title("Cumulative distribution of sizes (NRP)")
+plt.title("Cumulative distribution of sizes (catch-all)")
 plt.grid(True, which="both", axis="both", linestyle="--", alpha=0.4)
 plt.tight_layout()
 cdf_path = OUT_DIR / "cumulative_distribution.png"
