@@ -107,10 +107,8 @@ def fetch_5_newest_links(cid):
     # 2) pokud to nevypadá seřazené, seřaď klientsky
     def key_dt(r):
         return parse_dt(record_updated(r)) or datetime.datetime.min
-    # rozumný limit — není-li moc záznamů, je to OK; když jich je hodně, bere se top 5 po sortu
     hits_sorted = sorted(hits, key=key_dt, reverse=True)[:5] if hits else []
 
-    # vytvoř markdown odkazy s ID jako textem
     links = []
     for r in hits_sorted:
         rid = record_id(r)
@@ -128,11 +126,19 @@ def main():
     lines.append(f"_Source: {BASE}_\n")
     lines.append("| Community (ID) | Name | Records | Links (5 newest) |")
     lines.append("|---|---|---:|---|")
+    grand_total = 0
     for cid in ids:
         total, links = fetch_5_newest_links(cid)
+        try:
+            grand_total += int(total)
+        except (TypeError, ValueError):
+            pass
         name = titles.get(cid, "")
         sample = "<br>".join(links) if links else "—"
         lines.append(f"| `{cid}` | {name} | {total if total is not None else '—'} | {sample} |")
+    # poslední řádek tabulky s celkovým počtem záznamů (tučně)
+    lines.append(f"| **Celkem** | — | **{grand_total}** | — |")
+
     out = "nrp_by_community.md"
     with open(out, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
@@ -140,4 +146,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
