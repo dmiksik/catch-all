@@ -135,7 +135,7 @@ def main():
         sample = "<br>".join(links) if links else "—"
         lines.append(f"| `{cid}` | {name} | {total if total is not None else '—'} | {sample} |")
     # poslední řádek tabulky s celkovým počtem záznamů (tučně)
-    lines.append(f"| **Celkem** | — | **{grand_total}** | — |\n")
+    lines.append(f"| **Celkem** | — | **{grand_total}** | — |\n  ")
     lines.append(f"_Source: {BASE}_\n")
 
     out = "nrp_by_community.md"
