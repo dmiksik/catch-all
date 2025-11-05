@@ -122,8 +122,6 @@ def fetch_5_newest_links(cid):
 def main():
     ids, titles = collect_community_ids()
     lines = []
-    lines.append("## Communities and Records Overview \n")
-    lines.append(f"_Source: {BASE}_\n")
     lines.append("| Community (ID) | Name | Records | Links (5 newest) |")
     lines.append("|---|---|---:|---|")
     grand_total = 0
@@ -137,7 +135,8 @@ def main():
         sample = "<br>".join(links) if links else "—"
         lines.append(f"| `{cid}` | {name} | {total if total is not None else '—'} | {sample} |")
     # poslední řádek tabulky s celkovým počtem záznamů (tučně)
-    lines.append(f"| **Celkem** | — | **{grand_total}** | — |")
+    lines.append(f"| **Celkem** | — | **{grand_total}** | — |\n")
+    lines.append(f"_Source: {BASE}_\n")
 
     out = "nrp_by_community.md"
     with open(out, "w", encoding="utf-8") as f:
