@@ -59,7 +59,7 @@ jobs:
           <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>NRP Communities report</title>
+            <title>Catch-all Repository Communities report</title>
             <style>
               :root {{
                 --bg: #ffffff; --fg: #1f2937; --muted: #6b7280; --link: #2563eb;
@@ -89,7 +89,7 @@ jobs:
           </head>
           <body>
             <main class="wrap">
-              <h1>NRP Communities report</h1>
+              <h1>Catch-all Repository Communities report</h1>
               <div class="meta">Publikováno: {now}</div>
               {body}
               <p class="footer">Generováno GitHub Actions z <code>nrp_by_community.md</code>.</p>
