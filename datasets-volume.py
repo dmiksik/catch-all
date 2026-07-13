@@ -37,13 +37,13 @@ percentiles = [0.10, 0.25, 0.50, 0.75, 0.90]
 perc_values = {int(q*100): s.quantile(q) for q in percentiles}
 
 # Print nice Markdown
-print("## Record Size Statistics\\n")
+print("## Record Size Statistics\n")
 print(f"- **Records with size:** {n:,}")
 print(f"- **Total volume:** {fmt_bytes(total_b)} ({total_b:,.0f} B)")
 print(f"- **Mean:** {fmt_bytes(mean_b)} ({mean_b:,.0f} B)")
 print(f"- **Median:** {fmt_bytes(median_b)} ({median_b:,.0f} B)")
 print(f"- **Variance (sample):** {var_sam:,.0f} B^2")
-print(f"- **Standard deviation (sample):** {fmt_bytes(std_sam)}\\n")
+print(f"- **Standard deviation (sample):** {fmt_bytes(std_sam)}\n")
 
 print("### Selected percentiles")
 print("| Percentile | Size | Bytes |")
