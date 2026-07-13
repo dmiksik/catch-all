@@ -6,7 +6,7 @@
 | `cuni-datahub` | Charles University, DataHub Community | 2 | [datst.3z1na-56663](https://datarepo.eosc.cz/datasets/records/datst.3z1na-56663)<br>[datst.rw77y-hym71](https://datarepo.eosc.cz/datasets/records/datst.rw77y-hym71) |
 | `cesnet-tmc` | CESNET - TMC Community | 1 | [datst.44v8q-s2m90](https://datarepo.eosc.cz/datasets/records/datst.44v8q-s2m90) |
 | `—` | No Community | 93 | [9vzwg-wxy73](https://datarepo.eosc.cz/datasets/records/9vzwg-wxy73)<br>[datst.3nga8-wsr91](https://datarepo.eosc.cz/datasets/records/datst.3nga8-wsr91)<br>[datst.1kwkf-yr258](https://datarepo.eosc.cz/datasets/records/datst.1kwkf-yr258)<br>[datst.nx4g1-x9m42](https://datarepo.eosc.cz/datasets/records/datst.nx4g1-x9m42)<br>[datst.htg6v-2vn44](https://datarepo.eosc.cz/datasets/records/datst.htg6v-2vn44) |
-| **Celkem** | — | **172** | — |
+| **Total** | — | **172** | — |
   
 _Source: https://datarepo.eosc.cz_
 
