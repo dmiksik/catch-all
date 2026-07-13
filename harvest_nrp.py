@@ -3,7 +3,7 @@ import argparse, json, os, sys, time
 from urllib.parse import urljoin
 import requests
 
-DEFAULT_URL = "https://data.narodni-repozitar.cz/datasets/all/"
+DEFAULT_URL = "https://datarepo.eosc.cz/api/datasets"
 
 def get_session(token: str | None):
     s = requests.Session()
@@ -73,14 +73,22 @@ def compute_files_inline_aggregates(obj: dict):
     files = obj.get("files") if isinstance(obj, dict) else None
     if isinstance(files, dict):
         count = files.get("count")
-        size = files.get("size")
+        # InvenioRDM/datarepo.eosc.cz používá `total_bytes`; starší API mělo `size`
+        size = files.get("total_bytes")
+        if size is None:
+            size = files.get("size")
         if count is not None or size is not None:
             return count, size
+        # entries může být seznam (detail /files) i dict klíčovaný názvem souboru (inline)
         entries = files.get("entries")
+        if isinstance(entries, dict) and entries:
+            entries = list(entries.values())
         if isinstance(entries, list) and entries:
             c = 0
             total = 0
             for e in entries:
+                if not isinstance(e, dict):
+                    continue
                 c += 1
                 total += int(e.get("size") or 0)
             return c, total
@@ -136,9 +144,11 @@ def fetch_detail_if_needed(session: requests.Session, hit: dict, base_for_detail
     teprve pak sáhne pro detail přes `links.self` nebo /datasets/<id>/.
     Vrací tuple: (files_count, bytes_total, detail_obj_or_None)
     """
-    # 1) Inline agregáty?
+    # 1) Inline agregáty? Ve výsledcích výpisu (/api/datasets) bývají soubory
+    #    vynulované (count=0, total_bytes=0) i u záznamů, které soubory mají –
+    #    proto nulové hodnoty ignorujeme a dotáhneme detail / links.files.
     fc, bt = compute_files_inline_aggregates(hit)
-    if fc is not None or bt is not None:
+    if (fc or 0) > 0 or (bt or 0) > 0:
         return fc, bt, None
 
     # 2) /files link?
@@ -235,7 +245,9 @@ def main():
     print(f"[i] Start URL: {args.url}", file=sys.stderr)
 
     base_for_detail = None
-    if "/datasets/all" in args.url:
+    if "/api/datasets" in args.url:
+        base_for_detail = args.url.split("/api/datasets")[0] + "/api/datasets/"
+    elif "/datasets/all" in args.url:
         base_for_detail = args.url.split("/datasets/all")[0] + "/datasets/"
 
     # Harvest RAW

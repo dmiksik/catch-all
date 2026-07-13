@@ -3,8 +3,8 @@
 import requests, json, re, sys, datetime
 from urllib.parse import urljoin, urlencode
 
-BASE = "https://data.narodni-repozitar.cz"
-COMMUNITIES_URL = f"{BASE}/communities/"
+BASE = "https://datarepo.eosc.cz"
+COMMUNITIES_URL = f"{BASE}/api/communities"
 
 S = requests.Session()
 S.headers.update({
@@ -47,19 +47,19 @@ def collect_community_ids():
             titles[slug] = title or titles.get(slug, "")
     if isinstance(data, list):
         for it in data:
-            add(it.get("id") or it.get("slug") or it.get("identifier") or it.get("code") or it.get("name"),
-                it.get("title") or it.get("name") or "")
+            add(it.get("slug") or it.get("id") or it.get("identifier") or it.get("code") or it.get("name"),
+                (it.get("metadata") or {}).get("title") or it.get("title") or it.get("name") or "")
     elif isinstance(data, dict):
         for key in ("communities","items","hits","results","data"):
             seq = data.get(key)
             if isinstance(seq, list):
                 for it in seq:
-                    add(it.get("id") or it.get("slug") or it.get("identifier") or it.get("code") or it.get("name"),
-                        (it.get("title") or it.get("name") or ""))
+                    add(it.get("slug") or it.get("id") or it.get("identifier") or it.get("code") or it.get("name"),
+                        ((it.get("metadata") or {}).get("title") or it.get("title") or it.get("name") or ""))
         if isinstance(data.get("hits"), dict):
             for it in data["hits"].get("hits") or []:
-                add(it.get("id") or it.get("slug") or it.get("identifier") or it.get("code") or it.get("name"),
-                    (it.get("title") or it.get("name") or ""))
+                add(it.get("slug") or it.get("id") or it.get("identifier") or it.get("code") or it.get("name"),
+                    ((it.get("metadata") or {}).get("title") or it.get("title") or it.get("name") or ""))
     return ids, titles
 
 def normalize_hits(data):
@@ -95,16 +95,15 @@ def record_link(r):
         if href: return href
     rid = record_id(r)
     if rid:
-        return f"{BASE}/records/{rid}"
+        return f"{BASE}/datasets/records/{rid}"
     return None
 
-def fetch_5_newest_links(cid):
-    # 1) zkus server-side sort
-    url_sorted = f"{BASE}/{cid}/datasets/all/?{urlencode({'sort':'-by_available'})}"
-    data = safe_get_json(url_sorted)
+def _newest_links_from_url(url):
+    """Z daného search URL vrátí (total, [markdown odkazy na 5 nejnovějších])."""
+    data = safe_get_json(url)
     hits, total = normalize_hits(data)
 
-    # 2) pokud to nevypadá seřazené, seřaď klientsky
+    # server-side sort nemusí být spolehlivý → seřaď i klientsky
     def key_dt(r):
         return parse_dt(record_updated(r)) or datetime.datetime.min
     hits_sorted = sorted(hits, key=key_dt, reverse=True)[:5] if hits else []
@@ -118,6 +117,17 @@ def fetch_5_newest_links(cid):
         elif rid:
             links.append(rid)
     return total, links
+
+def fetch_5_newest_links(cid):
+    url = f"{BASE}/api/communities/{cid}/records?{urlencode({'sort':'newest'})}"
+    return _newest_links_from_url(url)
+
+def fetch_no_community_links():
+    # záznamy, které nepatří do žádné komunity (dřív musel být každý záznam
+    # v komunitě – základní byla „General“; nově komunita není povinná)
+    q = "NOT _exists_:parent.communities.ids"
+    url = f"{BASE}/api/datasets?{urlencode({'q': q, 'sort': 'newest'})}"
+    return _newest_links_from_url(url)
 
 def main():
     ids, titles = collect_community_ids()
@@ -134,6 +144,14 @@ def main():
         name = titles.get(cid, "")
         sample = "<br>".join(links) if links else "—"
         lines.append(f"| `{cid}` | {name} | {total if total is not None else '—'} | {sample} |")
+    # záznamy mimo komunity – stejný výpočet jako pro komunity
+    nc_total, nc_links = fetch_no_community_links()
+    try:
+        grand_total += int(nc_total)
+    except (TypeError, ValueError):
+        pass
+    nc_sample = "<br>".join(nc_links) if nc_links else "—"
+    lines.append(f"| `—` | No Community | {nc_total if nc_total is not None else '—'} | {nc_sample} |")
     # poslední řádek tabulky s celkovým počtem záznamů (tučně)
     lines.append(f"| **Celkem** | — | **{grand_total}** | — |\n  ")
     lines.append(f"_Source: {BASE}_\n")

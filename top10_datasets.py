@@ -7,7 +7,7 @@ import pandas as pd
 import requests
 
 # ====== Konfigurace cest ======
-BASE_URL = "https://data.narodni-repozitar.cz"
+BASE_URL = "https://datarepo.eosc.cz"
 OUT_DIR  = Path("nrp_dump")
 PARQUET  = OUT_DIR / "records_flat.parquet"
 RAW_JSONL= OUT_DIR / "records.jsonl"
@@ -221,16 +221,15 @@ def extract_ui_url(detail_or_raw: dict, rid: str) -> str:
         if isinstance(v, str) and v.strip():
             return v.rstrip("/")  # odstraníme trailing slash
 
-    # 2) poskládej z komunity + id
-    comm = extract_community_slug(detail_or_raw) or "general"
-    return f"{BASE_URL}/{comm}/datasets/{rid}".rstrip("/")
+    # 2) fallback na kanonický tvar UI URL
+    return f"{BASE_URL}/datasets/records/{rid}".rstrip("/")
 
 def detail_api_url(rec_raw: dict, rid: str) -> str:
     # API detail (JSON) – buď links.self, nebo /datasets/<id>/
     self_link = safe_get(rec_raw, ["links","self"])
     if isinstance(self_link, str) and self_link.strip():
         return self_link
-    return f"{BASE_URL}/datasets/{rid}"
+    return f"{BASE_URL}/api/datasets/{rid}"
 
 def fetch_detail_json(rec_raw: dict, rid: str) -> dict:
     url = detail_api_url(rec_raw, rid)
