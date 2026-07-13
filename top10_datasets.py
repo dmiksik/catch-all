@@ -298,12 +298,14 @@ def main():
     df_out.to_csv(csv_path, index=False)
 
     with open(md_path, "w", encoding="utf-8") as f:
-        f.write("| pořadí | id | title | size_human | bytes_total | doi | publication_year | affiliations | url |\n")
-        f.write("|---:|---|---|---:|---:|---|---:|---|---|\n")
+        f.write("| # | id | title | size | doi | publication_year | affiliations |\n")
+        f.write("|---:|---|---|---:|---|---:|---|\n")
         for i, r in enumerate(rows, start=1):
+            id_cell = f"[{r['id']}]({r['url']})" if r['url'] else r['id']
+            doi_cell = f"[{r['doi']}](https://doi.org/{r['doi']})" if r['doi'] else ""
             f.write(
-                f"| {i} | {r['id']} | {r['title']} | {r['size_human']} | {r['bytes_total']:,} | "
-                f"{r['doi']} | {r['publication_year']} | {r['affiliations']} | {r['url']} |\n"
+                f"| {i} | {id_cell} | {r['title']} | {r['size_human']} | "
+                f"{doi_cell} | {r['publication_year']} | {r['affiliations']} |\n"
             )
 
     with open(json_path, "w", encoding="utf-8") as f:

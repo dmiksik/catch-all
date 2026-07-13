@@ -153,7 +153,7 @@ def main():
     nc_sample = "<br>".join(nc_links) if nc_links else "—"
     lines.append(f"| `—` | No Community | {nc_total if nc_total is not None else '—'} | {nc_sample} |")
     # poslední řádek tabulky s celkovým počtem záznamů (tučně)
-    lines.append(f"| **Celkem** | — | **{grand_total}** | — |\n  ")
+    lines.append(f"| **Total** | — | **{grand_total}** | — |\n  ")
     lines.append(f"_Source: {BASE}_\n")
 
     out = "nrp_by_community.md"
