@@ -707,18 +707,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 10,
-        "unique_views": 8,
-        "downloads": 1,
-        "unique_downloads": 1,
-        "data_volume": 6338357461.0
+        "views": 0,
+        "unique_views": 0,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "data_volume": 0.0
       },
       "all_versions": {
-        "views": 10,
-        "unique_views": 8,
-        "downloads": 1,
-        "unique_downloads": 1,
-        "data_volume": 6338357461.0
+        "views": 0,
+        "unique_views": 0,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "data_volume": 0.0
       }
     },
     "state": "published",
@@ -1997,15 +1997,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 4,
-        "unique_views": 3,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 4,
-        "unique_views": 3,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
@@ -2501,18 +2501,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 9,
-        "unique_views": 9,
-        "downloads": 4,
-        "unique_downloads": 4,
-        "data_volume": 67168490525.0
+        "views": 0,
+        "unique_views": 0,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "data_volume": 0.0
       },
       "all_versions": {
-        "views": 9,
-        "unique_views": 9,
-        "downloads": 4,
-        "unique_downloads": 4,
-        "data_volume": 67168490525.0
+        "views": 0,
+        "unique_views": 0,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "data_volume": 0.0
       }
     },
     "state": "published",
@@ -3056,15 +3056,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 9,
-        "unique_views": 6,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 9,
-        "unique_views": 6,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
@@ -4351,18 +4351,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 8,
-        "unique_views": 7,
-        "downloads": 4,
-        "unique_downloads": 4,
-        "data_volume": 14606426618.0
+        "views": 0,
+        "unique_views": 0,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "data_volume": 0.0
       },
       "all_versions": {
-        "views": 6,
-        "unique_views": 5,
-        "downloads": 4,
-        "unique_downloads": 4,
-        "data_volume": 14606426618.0
+        "views": 0,
+        "unique_views": 0,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "data_volume": 0.0
       }
     },
     "state": "published",
@@ -4877,15 +4877,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 1,
-        "unique_views": 1,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 1,
-        "unique_views": 1,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
@@ -5355,15 +5355,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 4,
-        "unique_views": 4,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 4,
-        "unique_views": 4,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
@@ -6036,15 +6036,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 8,
-        "unique_views": 6,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 5,
-        "unique_views": 5,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
@@ -6758,15 +6758,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 12,
-        "unique_views": 11,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 12,
-        "unique_views": 11,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
@@ -7286,15 +7286,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 3,
-        "unique_views": 3,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 3,
-        "unique_views": 3,
+        "views": 0,
+        "unique_views": 0,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
