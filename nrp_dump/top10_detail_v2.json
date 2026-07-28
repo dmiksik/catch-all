@@ -60,7 +60,7 @@
           "client": "datacite"
         }
       },
-      "workflow": null
+      "workflow": "individual"
     },
     "versions": {
       "is_latest": true,
@@ -786,7 +786,7 @@
           "client": "datacite"
         }
       },
-      "workflow": null
+      "workflow": "individual"
     },
     "versions": {
       "is_latest": true,
@@ -2076,7 +2076,7 @@
           "client": "datacite"
         }
       },
-      "workflow": null
+      "workflow": "individual"
     },
     "versions": {
       "is_latest": true,
@@ -2580,7 +2580,7 @@
           "client": "datacite"
         }
       },
-      "workflow": null
+      "workflow": "individual"
     },
     "versions": {
       "is_latest": true,
@@ -3135,7 +3135,7 @@
           "client": "datacite"
         }
       },
-      "workflow": null
+      "workflow": "individual"
     },
     "versions": {
       "is_latest": true,
@@ -4430,7 +4430,7 @@
           "client": "datacite"
         }
       },
-      "workflow": null
+      "workflow": "individual"
     },
     "versions": {
       "is_latest": true,
@@ -4956,7 +4956,7 @@
           "client": "datacite"
         }
       },
-      "workflow": null
+      "workflow": "individual"
     },
     "versions": {
       "is_latest": true,
@@ -5434,7 +5434,7 @@
           "client": "datacite"
         }
       },
-      "workflow": null
+      "workflow": "individual"
     },
     "versions": {
       "is_latest": true,
@@ -6115,7 +6115,7 @@
           "client": "datacite"
         }
       },
-      "workflow": null
+      "workflow": "individual"
     },
     "versions": {
       "is_latest": true,
@@ -6837,7 +6837,7 @@
           "client": "datacite"
         }
       },
-      "workflow": null
+      "workflow": "individual"
     },
     "versions": {
       "is_latest": true,
