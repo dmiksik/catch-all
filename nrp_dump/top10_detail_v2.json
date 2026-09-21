@@ -165,11 +165,19 @@
           "affiliations": [
             {
               "id": "024d6js02",
-              "name": "Univerzita Karlova",
+              "name": "Charles University",
               "identifiers": [
                 {
                   "identifier": "024d6js02",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.4491.8",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 1937 116X",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -859,11 +867,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -885,11 +901,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -911,11 +935,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -937,11 +969,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -963,11 +1003,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -989,11 +1037,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -1015,11 +1071,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -1041,11 +1105,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -1070,11 +1142,15 @@
           "affiliations": [
             {
               "id": "00wzqmx94",
-              "name": "Biotechnologický ústav AV ČR",
+              "name": "Czech Academy of Sciences, Institute of Biotechnology",
               "identifiers": [
                 {
                   "identifier": "00wzqmx94",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.448014.d",
+                  "scheme": "grid"
                 }
               ]
             }
@@ -1097,11 +1173,15 @@
           "affiliations": [
             {
               "id": "00wzqmx94",
-              "name": "Biotechnologický ústav AV ČR",
+              "name": "Czech Academy of Sciences, Institute of Biotechnology",
               "identifiers": [
                 {
                   "identifier": "00wzqmx94",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.448014.d",
+                  "scheme": "grid"
                 }
               ]
             }
@@ -1124,11 +1204,15 @@
           "affiliations": [
             {
               "id": "00wzqmx94",
-              "name": "Biotechnologický ústav AV ČR",
+              "name": "Czech Academy of Sciences, Institute of Biotechnology",
               "identifiers": [
                 {
                   "identifier": "00wzqmx94",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.448014.d",
+                  "scheme": "grid"
                 }
               ]
             }
@@ -2154,11 +2238,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -2180,11 +2272,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -2206,11 +2306,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -2232,11 +2340,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -2258,11 +2374,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -2284,11 +2408,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -2310,11 +2442,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -2339,11 +2479,15 @@
           "affiliations": [
             {
               "id": "00wzqmx94",
-              "name": "Biotechnologický ústav AV ČR",
+              "name": "Czech Academy of Sciences, Institute of Biotechnology",
               "identifiers": [
                 {
                   "identifier": "00wzqmx94",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.448014.d",
+                  "scheme": "grid"
                 }
               ]
             }
@@ -2366,11 +2510,15 @@
           "affiliations": [
             {
               "id": "00wzqmx94",
-              "name": "Biotechnologický ústav AV ČR",
+              "name": "Czech Academy of Sciences, Institute of Biotechnology",
               "identifiers": [
                 {
                   "identifier": "00wzqmx94",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.448014.d",
+                  "scheme": "grid"
                 }
               ]
             }
@@ -2393,11 +2541,15 @@
           "affiliations": [
             {
               "id": "00wzqmx94",
-              "name": "Biotechnologický ústav AV ČR",
+              "name": "Czech Academy of Sciences, Institute of Biotechnology",
               "identifiers": [
                 {
                   "identifier": "00wzqmx94",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.448014.d",
+                  "scheme": "grid"
                 }
               ]
             }
@@ -3053,15 +3205,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 0,
-        "unique_views": 0,
+        "views": 2,
+        "unique_views": 2,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 0,
-        "unique_views": 0,
+        "views": 2,
+        "unique_views": 2,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
@@ -3224,11 +3376,19 @@
           "affiliations": [
             {
               "id": "024d6js02",
-              "name": "Univerzita Karlova",
+              "name": "Charles University",
               "identifiers": [
                 {
                   "identifier": "024d6js02",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.4491.8",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 1937 116X",
+                  "scheme": "isni"
                 }
               ]
             },
@@ -3264,11 +3424,19 @@
           "affiliations": [
             {
               "id": "024d6js02",
-              "name": "Univerzita Karlova",
+              "name": "Charles University",
               "identifiers": [
                 {
                   "identifier": "024d6js02",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.4491.8",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 1937 116X",
+                  "scheme": "isni"
                 }
               ]
             },
@@ -3304,11 +3472,19 @@
           "affiliations": [
             {
               "id": "024d6js02",
-              "name": "Univerzita Karlova",
+              "name": "Charles University",
               "identifiers": [
                 {
                   "identifier": "024d6js02",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.4491.8",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 1937 116X",
+                  "scheme": "isni"
                 }
               ]
             },
@@ -3344,11 +3520,19 @@
           "affiliations": [
             {
               "id": "024d6js02",
-              "name": "Univerzita Karlova",
+              "name": "Charles University",
               "identifiers": [
                 {
                   "identifier": "024d6js02",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.4491.8",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 1937 116X",
+                  "scheme": "isni"
                 }
               ]
             },
@@ -3384,11 +3568,19 @@
           "affiliations": [
             {
               "id": "024d6js02",
-              "name": "Univerzita Karlova",
+              "name": "Charles University",
               "identifiers": [
                 {
                   "identifier": "024d6js02",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.4491.8",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 1937 116X",
+                  "scheme": "isni"
                 }
               ]
             },
@@ -4488,11 +4680,19 @@
           "affiliations": [
             {
               "id": "05wrbcx33",
-              "name": "Ústav fotoniky a elektroniky AV ČR",
+              "name": "Czech Academy of Sciences, Institute of Photonics and Electronics",
               "identifiers": [
                 {
                   "identifier": "05wrbcx33",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.425123.3",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 0369 4319",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -4514,11 +4714,19 @@
           "affiliations": [
             {
               "id": "05wrbcx33",
-              "name": "Ústav fotoniky a elektroniky AV ČR",
+              "name": "Czech Academy of Sciences, Institute of Photonics and Electronics",
               "identifiers": [
                 {
                   "identifier": "05wrbcx33",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.425123.3",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 0369 4319",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -4992,11 +5200,19 @@
           "affiliations": [
             {
               "id": "05wrbcx33",
-              "name": "Ústav fotoniky a elektroniky AV ČR",
+              "name": "Czech Academy of Sciences, Institute of Photonics and Electronics",
               "identifiers": [
                 {
                   "identifier": "05wrbcx33",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.425123.3",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 0369 4319",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -5012,11 +5228,19 @@
           "affiliations": [
             {
               "id": "05wrbcx33",
-              "name": "Ústav fotoniky a elektroniky AV ČR",
+              "name": "Czech Academy of Sciences, Institute of Photonics and Electronics",
               "identifiers": [
                 {
                   "identifier": "05wrbcx33",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.425123.3",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 0369 4319",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -5629,11 +5853,19 @@
             },
             {
               "id": "00qq1fp34",
-              "name": "Fakultní nemocnice Brno",
+              "name": "University Hospital Brno",
               "identifiers": [
                 {
                   "identifier": "00qq1fp34",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.412554.3",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 0609 2751",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -5655,21 +5887,37 @@
           "affiliations": [
             {
               "id": "00qq1fp34",
-              "name": "Fakultní nemocnice Brno",
+              "name": "University Hospital Brno",
               "identifiers": [
                 {
                   "identifier": "00qq1fp34",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.412554.3",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 0609 2751",
+                  "scheme": "isni"
                 }
               ]
             },
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -5691,21 +5939,37 @@
           "affiliations": [
             {
               "id": "00qq1fp34",
-              "name": "Fakultní nemocnice Brno",
+              "name": "University Hospital Brno",
               "identifiers": [
                 {
                   "identifier": "00qq1fp34",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.412554.3",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0004 0609 2751",
+                  "scheme": "isni"
                 }
               ]
             },
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -6862,11 +7126,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -6888,11 +7160,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -6914,11 +7194,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -6940,11 +7228,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -6966,11 +7262,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -6992,11 +7296,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -7018,11 +7330,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -7044,11 +7364,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -7070,11 +7398,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -7394,25 +7730,33 @@
           "affiliations": [
             {
               "id": "050jqn596",
-              "name": "Jihočeské výzkumné centrum akvakultury a biodiverzity hydrocenóz / Fakulta rybářství a ochrany vod / Jihočeská univerzita v Českých Budějovicích",
+              "name": "South Bohemia research center of aquaculture and biodiversity of hydrocenoses",
               "identifiers": [
                 {
                   "identifier": "050jqn596",
                   "scheme": "ror"
                 },
                 {
-                  "identifier": "orjk:12520",
-                  "scheme": "parent-id"
+                  "identifier": "grid.454762.6",
+                  "scheme": "grid"
                 }
               ]
             },
             {
               "id": "033n3pw66",
-              "name": "Jihočeská univerzita v Českých Budějovicích",
+              "name": "University of South Bohemia in České Budějovice",
               "identifiers": [
                 {
                   "identifier": "033n3pw66",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.14509.39",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2166 4904",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -7428,25 +7772,33 @@
           "affiliations": [
             {
               "id": "033n3pw66",
-              "name": "Jihočeská univerzita v Českých Budějovicích",
+              "name": "University of South Bohemia in České Budějovice",
               "identifiers": [
                 {
                   "identifier": "033n3pw66",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.14509.39",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2166 4904",
+                  "scheme": "isni"
                 }
               ]
             },
             {
               "id": "050jqn596",
-              "name": "Jihočeské výzkumné centrum akvakultury a biodiverzity hydrocenóz / Fakulta rybářství a ochrany vod / Jihočeská univerzita v Českých Budějovicích",
+              "name": "South Bohemia research center of aquaculture and biodiversity of hydrocenoses",
               "identifiers": [
                 {
                   "identifier": "050jqn596",
                   "scheme": "ror"
                 },
                 {
-                  "identifier": "orjk:12520",
-                  "scheme": "parent-id"
+                  "identifier": "grid.454762.6",
+                  "scheme": "grid"
                 }
               ]
             }
@@ -7462,11 +7814,19 @@
           "affiliations": [
             {
               "id": "04qtj9h94",
-              "name": "Dänemarks Technische Universität",
+              "name": "Technical University of Denmark",
               "identifiers": [
                 {
                   "identifier": "04qtj9h94",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.5170.3",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2181 8870",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -7852,11 +8212,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             },
@@ -7888,11 +8256,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             },
@@ -7928,11 +8304,19 @@
           "affiliations": [
             {
               "id": "00pd74e08",
-              "name": "Universität Münster",
+              "name": "University of Münster",
               "identifiers": [
                 {
                   "identifier": "00pd74e08",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.5949.1",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2172 9288",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -7954,11 +8338,19 @@
           "affiliations": [
             {
               "id": "00pd74e08",
-              "name": "Universität Münster",
+              "name": "University of Münster",
               "identifiers": [
                 {
                   "identifier": "00pd74e08",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.5949.1",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2172 9288",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -7980,11 +8372,19 @@
           "affiliations": [
             {
               "id": "00pd74e08",
-              "name": "Universität Münster",
+              "name": "University of Münster",
               "identifiers": [
                 {
                   "identifier": "00pd74e08",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.5949.1",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2172 9288",
+                  "scheme": "isni"
                 }
               ]
             }
@@ -8000,11 +8400,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             },
@@ -8034,11 +8442,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             },
@@ -8064,11 +8480,19 @@
           "affiliations": [
             {
               "id": "02j46qs45",
-              "name": "Masarykova univerzita",
+              "name": "Masaryk University",
               "identifiers": [
                 {
                   "identifier": "02j46qs45",
                   "scheme": "ror"
+                },
+                {
+                  "identifier": "grid.10267.32",
+                  "scheme": "grid"
+                },
+                {
+                  "identifier": "0000 0001 2194 0956",
+                  "scheme": "isni"
                 }
               ]
             },
