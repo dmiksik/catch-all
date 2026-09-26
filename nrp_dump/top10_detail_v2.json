@@ -8806,15 +8806,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 8,
-        "unique_views": 6,
+        "views": 9,
+        "unique_views": 7,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 5,
-        "unique_views": 5,
+        "views": 6,
+        "unique_views": 6,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
