@@ -4535,18 +4535,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 4,
-        "unique_views": 3,
-        "downloads": 8,
-        "unique_downloads": 4,
-        "data_volume": 87496072448.0
+        "views": 5,
+        "unique_views": 4,
+        "downloads": 9,
+        "unique_downloads": 5,
+        "data_volume": 87496074333.0
       },
       "all_versions": {
-        "views": 4,
-        "unique_views": 3,
-        "downloads": 8,
-        "unique_downloads": 4,
-        "data_volume": 87496072448.0
+        "views": 5,
+        "unique_views": 4,
+        "downloads": 9,
+        "unique_downloads": 5,
+        "data_volume": 87496074333.0
       }
     },
     "state": "published",
