@@ -4535,15 +4535,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 5,
-        "unique_views": 4,
+        "views": 6,
+        "unique_views": 5,
         "downloads": 9,
         "unique_downloads": 5,
         "data_volume": 87496074333.0
       },
       "all_versions": {
-        "views": 5,
-        "unique_views": 4,
+        "views": 6,
+        "unique_views": 5,
         "downloads": 9,
         "unique_downloads": 5,
         "data_volume": 87496074333.0
