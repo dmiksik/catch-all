@@ -715,18 +715,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 11,
-        "unique_views": 9,
-        "downloads": 1,
-        "unique_downloads": 1,
-        "data_volume": 6338357461.0
+        "views": 13,
+        "unique_views": 11,
+        "downloads": 2,
+        "unique_downloads": 2,
+        "data_volume": 6418843215.0
       },
       "all_versions": {
-        "views": 11,
-        "unique_views": 9,
-        "downloads": 1,
-        "unique_downloads": 1,
-        "data_volume": 6338357461.0
+        "views": 13,
+        "unique_views": 11,
+        "downloads": 2,
+        "unique_downloads": 2,
+        "data_volume": 6418843215.0
       }
     },
     "state": "published",
