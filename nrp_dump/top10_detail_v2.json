@@ -4554,6 +4554,1242 @@
     "custom_fields": {}
   },
   {
+    "id": "hjbxn-0yc34",
+    "created": "2026-10-04T07:32:34.054039+00:00",
+    "updated": "2026-10-04T07:46:35.983999+00:00",
+    "links": {
+      "self": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34",
+      "parent": "https://datarepo.eosc.cz/api/datasets/m1qyd-htm14",
+      "latest": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34/versions/latest",
+      "record": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34",
+      "versions": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34/versions",
+      "self_html": "https://datarepo.eosc.cz/datasets/records/hjbxn-0yc34",
+      "latest_html": "https://datarepo.eosc.cz/datasets/records/hjbxn-0yc34/latest",
+      "doi": "https://doi.org/10.48700/hjbxn-0yc34",
+      "self_doi": "https://doi.org/10.48700/hjbxn-0yc34",
+      "self_doi_html": "https://datarepo.eosc.cz/doi/10.48700/hjbxn-0yc34",
+      "reserve_doi": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/draft/pids/doi",
+      "parent_html": "https://datarepo.eosc.cz/records/m1qyd-htm14",
+      "parent_doi": "https://doi.org/10.48700/m1qyd-htm14",
+      "parent_doi_html": "https://datarepo.eosc.cz/doi/10.48700/m1qyd-htm14",
+      "self_iiif_manifest": "https://datarepo.eosc.cz/api/iiif/record:hjbxn-0yc34/manifest",
+      "self_iiif_sequence": "https://datarepo.eosc.cz/api/iiif/record:hjbxn-0yc34/sequence/default",
+      "files": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34/files",
+      "media_files": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34/media-files",
+      "archive": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34/files-archive",
+      "archive_media": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34/media-files-archive",
+      "access_links": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/access/links",
+      "access_grants": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/access/grants",
+      "access_users": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/access/users",
+      "access_groups": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/access/groups",
+      "access_request": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/access/request",
+      "access": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/access",
+      "communities": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/communities",
+      "communities-suggestions": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/communities-suggestions",
+      "request_deletion": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/request-deletion",
+      "file_modification": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/file-modification",
+      "quota_increase": "https://datarepo.eosc.cz/api/records/hjbxn-0yc34/quota-increase",
+      "requests": "https://datarepo.eosc.cz/api/requests/?topic=record:hjbxn-0yc34",
+      "applicable-requests": "https://datarepo.eosc.cz/api/requests/applicable?topic=record:hjbxn-0yc34"
+    },
+    "revision_id": 8,
+    "parent": {
+      "id": "m1qyd-htm14",
+      "access": {
+        "owned_by": {
+          "user": "509"
+        },
+        "settings": {
+          "allow_user_requests": false,
+          "allow_guest_requests": false,
+          "accept_conditions_text": null,
+          "secret_link_expiration": 0
+        }
+      },
+      "communities": {},
+      "pids": {
+        "doi": {
+          "identifier": "10.48700/m1qyd-htm14",
+          "provider": "datacite",
+          "client": "datacite"
+        }
+      },
+      "workflow": null
+    },
+    "versions": {
+      "is_latest": true,
+      "index": 2
+    },
+    "is_published": true,
+    "is_draft": false,
+    "$schema": "local://datasets-v1.1.0.json",
+    "metadata": {
+      "publication_date": "2026-10-04",
+      "version": "1.1.0",
+      "title": "Open multimodal dataset for rolling bearing degradation",
+      "description": "<div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\">\n<p>This dataset contains multimodal measurements acquired from an electromechanical drivetrain bearing test bench under stable operating and loading conditions. The dataset includes raw vibration acceleration signals, acoustic emission signal parameters, temperature measurements, applied load, motor torque, and rotational speed records collected simultaneously from multiple sensors installed on the test setup. The measurements were obtained during long-term experiments. The combination of high-frequency sensing data and operational parameters enables research in condition monitoring, fault diagnosis, predictive maintenance, anomaly detection, and machine learning for industrial systems. By providing synchronized measurements from multiple sensing modalities, the dataset supports the development and validation of advanced signal processing techniques, feature extraction methods, data fusion approaches, and artificial intelligence algorithms for machinery health assessment. The dataset can also serve as a benchmark resource for comparative studies and the evaluation of novel diagnostic and prognostic methodologies for rotating machinery and electromechanical systems.</p>\n</div>",
+      "publisher": "Data Catch-all Repository",
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Doseděl, Martin",
+            "given_name": "Martin",
+            "family_name": "Doseděl",
+            "identifiers": [
+              {
+                "identifier": "0000-0002-3170-6423",
+                "scheme": "orcid"
+              }
+            ]
+          },
+          "affiliations": [
+            {
+              "id": "orjk:90041",
+              "name": "CEITEC Vysoké učení technické v Brně / Vysoké učení technické v Brně",
+              "identifiers": [
+                {
+                  "identifier": "90041",
+                  "scheme": "orjk"
+                },
+                {
+                  "identifier": "03613d656",
+                  "scheme": "parent-id"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Hnidka, Jakub",
+            "given_name": "Jakub",
+            "family_name": "Hnidka",
+            "identifiers": [
+              {
+                "identifier": "0000-0003-1712-079X",
+                "scheme": "orcid"
+              }
+            ]
+          },
+          "affiliations": [
+            {
+              "id": "orjk:90041",
+              "name": "CEITEC Vysoké učení technické v Brně / Vysoké učení technické v Brně",
+              "identifiers": [
+                {
+                  "identifier": "90041",
+                  "scheme": "orjk"
+                },
+                {
+                  "identifier": "03613d656",
+                  "scheme": "parent-id"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Havránek, Zdeněk",
+            "given_name": "Zdeněk",
+            "family_name": "Havránek",
+            "identifiers": [
+              {
+                "identifier": "0000-0002-8761-6590",
+                "scheme": "orcid"
+              }
+            ]
+          },
+          "affiliations": [
+            {
+              "id": "orjk:90041",
+              "name": "CEITEC Vysoké učení technické v Brně / Vysoké učení technické v Brně",
+              "identifiers": [
+                {
+                  "identifier": "90041",
+                  "scheme": "orjk"
+                },
+                {
+                  "identifier": "03613d656",
+                  "scheme": "parent-id"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contributors": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Doseděl, Martin",
+            "given_name": "Martin",
+            "family_name": "Doseděl",
+            "identifiers": [
+              {
+                "identifier": "0000-0002-3170-6423",
+                "scheme": "orcid"
+              }
+            ]
+          },
+          "role": {
+            "id": "ContactPerson",
+            "title": {
+              "cs": "Kontaktní osoba",
+              "en": "Contact Person"
+            }
+          },
+          "affiliations": [
+            {
+              "id": "orjk:90041",
+              "name": "CEITEC Vysoké učení technické v Brně / Vysoké učení technické v Brně",
+              "identifiers": [
+                {
+                  "identifier": "90041",
+                  "scheme": "orjk"
+                },
+                {
+                  "identifier": "03613d656",
+                  "scheme": "parent-id"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "date": "2026-10-04",
+          "type": {
+            "id": "Submitted",
+            "title": {
+              "cs": "Datum podání datasetu",
+              "en": "Date Submitted"
+            }
+          },
+          "description": "corrected version of dataset"
+        }
+      ],
+      "subjects": [
+        {
+          "subject": "bearing"
+        },
+        {
+          "subject": "vibrodiagnostics"
+        },
+        {
+          "subject": "RUL"
+        },
+        {
+          "subject": "run-to-failure test"
+        }
+      ],
+      "funding": [
+        {
+          "funder": {
+            "id": "04v0fk911",
+            "name": "Technologická agentura České republiky"
+          },
+          "award": {
+            "number": "TN02000028"
+          }
+        },
+        {
+          "funder": {
+            "id": "00k4n6c32",
+            "name": "Evropská komise"
+          },
+          "award": {
+            "number": "857306"
+          }
+        },
+        {
+          "funder": {
+            "id": "037n8p820",
+            "name": "Ministerstvo školství, mládeže a tělovýchovy"
+          },
+          "award": {
+            "number": "CZ.02.1.01/0.0/0.0/17_043/0010085"
+          }
+        }
+      ],
+      "resource_type": {
+        "id": "c_ddb1",
+        "title": {
+          "cs": "datová sada",
+          "en": "dataset"
+        }
+      },
+      "languages": [
+        {
+          "id": "ENG",
+          "title": {
+            "cs": "angličtina",
+            "en": "English"
+          }
+        }
+      ],
+      "related_resources": [
+        {
+          "publication_date": "2026-09-29",
+          "title": "Condition Indicators For Rolling Bearing Degradation Based On Vibration Measurements: Experimental Results From A Controlled Run",
+          "publisher": "The International Institute of Acoustics and Vibration",
+          "identifiers": [
+            {
+              "identifier": "11012/527855",
+              "scheme": "handle"
+            }
+          ],
+          "creators": [
+            {
+              "person_or_org": {
+                "type": "personal",
+                "name": "Doseděl, Martin",
+                "given_name": "Martin",
+                "family_name": "Doseděl",
+                "identifiers": [
+                  {
+                    "identifier": "0000-0002-3170-6423",
+                    "scheme": "orcid"
+                  }
+                ]
+              },
+              "affiliations": [
+                {
+                  "id": "orjk:90041",
+                  "name": "CEITEC Vysoké učení technické v Brně / Vysoké učení technické v Brně",
+                  "identifiers": [
+                    {
+                      "identifier": "90041",
+                      "scheme": "orjk"
+                    },
+                    {
+                      "identifier": "03613d656",
+                      "scheme": "parent-id"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "person_or_org": {
+                "type": "personal",
+                "name": "Hnidka, Jakub",
+                "given_name": "Jakub",
+                "family_name": "Hnidka",
+                "identifiers": [
+                  {
+                    "identifier": "0000-0003-1712-079X",
+                    "scheme": "orcid"
+                  }
+                ]
+              },
+              "affiliations": [
+                {
+                  "id": "orjk:90041",
+                  "name": "CEITEC Vysoké učení technické v Brně / Vysoké učení technické v Brně",
+                  "identifiers": [
+                    {
+                      "identifier": "90041",
+                      "scheme": "orjk"
+                    },
+                    {
+                      "identifier": "03613d656",
+                      "scheme": "parent-id"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "person_or_org": {
+                "type": "personal",
+                "name": "Havránek, Zdeněk",
+                "given_name": "Zdeněk",
+                "family_name": "Havránek",
+                "identifiers": [
+                  {
+                    "identifier": "0000-0002-8761-6590",
+                    "scheme": "orcid"
+                  }
+                ]
+              },
+              "affiliations": [
+                {
+                  "id": "orjk:90041",
+                  "name": "CEITEC Vysoké učení technické v Brně / Vysoké učení technické v Brně",
+                  "identifiers": [
+                    {
+                      "identifier": "90041",
+                      "scheme": "orjk"
+                    },
+                    {
+                      "identifier": "03613d656",
+                      "scheme": "parent-id"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "date": "2026-09-29",
+              "type": {
+                "id": "Other",
+                "title": {
+                  "cs": "Jiné datum",
+                  "en": "Other date"
+                }
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "subject": "bearing lifecycle testing"
+            },
+            {
+              "subject": "vibration-based health monitoring"
+            },
+            {
+              "subject": "condition indicators"
+            }
+          ],
+          "funding": [
+            {
+              "funder": {
+                "id": "04v0fk911",
+                "name": "Technologická agentura České republiky"
+              },
+              "award": {
+                "number": "TN02000028"
+              }
+            },
+            {
+              "funder": {
+                "id": "00k4n6c32",
+                "name": "Evropská komise"
+              },
+              "award": {
+                "number": "857306"
+              }
+            },
+            {
+              "funder": {
+                "id": "037n8p820",
+                "name": "Ministerstvo školství, mládeže a tělovýchovy"
+              },
+              "award": {
+                "number": "CZ.02.1.01/0.0/0.0/17_043/0010085"
+              }
+            }
+          ],
+          "resource_type": {
+            "id": "c_5794",
+            "title": {
+              "cs": "příspěvek na konferenci",
+              "en": "conference paper"
+            }
+          },
+          "languages": [
+            {
+              "id": "ENG",
+              "title": {
+                "cs": "angličtina",
+                "en": "English"
+              }
+            }
+          ],
+          "relation_type": {
+            "id": "IsContinuedBy",
+            "title": {
+              "cs": "je pokračováním (čeho)",
+              "en": "is continued by"
+            }
+          }
+        }
+      ],
+      "rights": [
+        {
+          "id": "4-BY",
+          "title": {
+            "cs": "Creative Commons Uveďte původ 4.0 Mezinárodní licence",
+            "en": "Creative Commons Attribution 4.0 International License"
+          },
+          "description": {
+            "cs": "Umožňuje ostatním rozmnožovat, rozšiřovat, vystavovat a sdělovat dílo a z něj odvozená díla pouze při uvedení autora. V češtině: Uveďte původ (v češtině dříve označováno jako Uveďte autora); v angličtině: Attribution; zkratka CC BY.",
+            "en": "This license enables reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use. Abbreviation CC BY"
+          },
+          "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+        }
+      ]
+    },
+    "files": {
+      "enabled": true,
+      "order": [],
+      "count": 54,
+      "total_bytes": 513499867805,
+      "entries": {
+        "260818-ManD-Pos5.zip": {
+          "id": "f6df0e2e-6270-4cfa-8596-f8adbe7cf97b",
+          "checksum": "md5:cce52b73c7e3d0ee55435e88441249a0",
+          "ext": "zip",
+          "size": 7448812780,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260818-ManD-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260902-ManD-Pos3.zip": {
+          "id": "5f6ab72d-ed71-433b-857d-e3b3e47b4a8c",
+          "checksum": "md5:4d1248f5eac4e8fb85fe60e14a17a489",
+          "ext": "zip",
+          "size": 4602097609,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260902-ManD-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260902-ManD-Pos4.zip": {
+          "id": "194c0c21-34dc-4674-b7f3-7444eeaa30b5",
+          "checksum": "md5:6f0e4c15ac6f5bb753d596388d5dcdbe",
+          "ext": "zip",
+          "size": 16709174903,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260902-ManD-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260313-ManA-Pos2.zip": {
+          "id": "1e0717e4-8d77-499b-93aa-ba477cfb46f4",
+          "checksum": "md5:97307adb19c618b68036a0d93d2ad035",
+          "ext": "zip",
+          "size": 985542115,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260313-ManA-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260313-ManA-Pos5.zip": {
+          "id": "dc5ca62c-8615-4814-a7c1-f2e99aee01d9",
+          "checksum": "md5:687c930b5c606df48db408fa5d6f539e",
+          "ext": "zip",
+          "size": 984271816,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260313-ManA-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260313-ManA-Pos1.zip": {
+          "id": "56a87d08-0511-4cab-974b-cde12f289a22",
+          "checksum": "md5:dc72d32bc84a230da4e3fea47c40adfd",
+          "ext": "zip",
+          "size": 936248770,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260313-ManA-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260604-ManC-Pos2.zip": {
+          "id": "f4b1990a-45a3-4ff7-9495-fb14d004716a",
+          "checksum": "md5:6a396043cafaa2401e0c733a0d29715d",
+          "ext": "zip",
+          "size": 1586185933,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260604-ManC-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260401-ManB-Pos1.zip": {
+          "id": "c5e3aa01-6c2f-42f9-8ed9-afa6cad3b933",
+          "checksum": "md5:8e1d8f22395eb2d5157076330926b2a2",
+          "ext": "zip",
+          "size": 729801429,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260401-ManB-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260507-ManB-Pos5.zip": {
+          "id": "84a61fe0-6787-4eae-b33f-066093196aaa",
+          "checksum": "md5:b9ff4c606a87c85423f9c9935de95975",
+          "ext": "zip",
+          "size": 27142226336,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260507-ManB-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260604-ManC-Pos5.zip": {
+          "id": "6a3777dd-36b1-471a-9e55-bfe04a60e7d5",
+          "checksum": "md5:6681658b881e77ec756add710169177f",
+          "ext": "zip",
+          "size": 683976624,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260604-ManC-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260507-ManB-Pos2.zip": {
+          "id": "5b9e5866-aff5-481a-9aad-7bef4c6704dd",
+          "checksum": "md5:34ff22d30f9524242dc436d12df0f3d0",
+          "ext": "zip",
+          "size": 35926977530,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260507-ManB-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260615-ManC-Pos2.zip": {
+          "id": "8eb0f1a5-0438-4f42-8f7f-106e7cc99a2e",
+          "checksum": "md5:f5a2ab2922b932c16aaec3c209f69777",
+          "ext": "zip",
+          "size": 15686321679,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260615-ManC-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260429-ManB-Pos5.zip": {
+          "id": "055e8251-ab9b-4d90-b0de-4de863104f86",
+          "checksum": "md5:488a2943f7e16f5e7684f8b97c30bebf",
+          "ext": "zip",
+          "size": 18903060040,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260429-ManB-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260507-ManB-Pos4.zip": {
+          "id": "6b13e45f-07b6-4ebd-a4b3-48f7ec2223a2",
+          "checksum": "md5:cb55957971d3410bc23a313c55f136bc",
+          "ext": "zip",
+          "size": 42655116216,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260507-ManB-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260507-ManB-Pos3.zip": {
+          "id": "cfc4f8c9-770c-418d-9662-3229d8dc68dc",
+          "checksum": "md5:0a539b17ad9c5c94110f3783fc07632c",
+          "ext": "zip",
+          "size": 43303303376,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260507-ManB-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260604-ManC-Pos3.zip": {
+          "id": "c3335ca8-7ddf-4b6e-8efa-d16007beeb38",
+          "checksum": "md5:b29a3f42f31c85ec2230f804433a32a8",
+          "ext": "zip",
+          "size": 808698111,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260604-ManC-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260615-ManC-Pos3.zip": {
+          "id": "00d83b4c-9a79-4e8c-8901-01ae91dc36f7",
+          "checksum": "md5:38859710d44fdd2c51cbf8022eb3c2d0",
+          "ext": "zip",
+          "size": 1044102630,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260615-ManC-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260615-ManC-Pos4.zip": {
+          "id": "42986ce5-902d-492a-8bd4-f4569cfc8257",
+          "checksum": "md5:1ca6a987a51603e3cb3d711801e30c1f",
+          "ext": "zip",
+          "size": 11660843081,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260615-ManC-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260615-ManC-Pos5.zip": {
+          "id": "70341d39-7775-4710-b426-a7556f431a3f",
+          "checksum": "md5:88d814d159a8595bfc22ca5ab8dd75f5",
+          "ext": "zip",
+          "size": 18579252827,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260615-ManC-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260624-ManC-Pos4.zip": {
+          "id": "c75eb146-53fd-485e-b7ac-b652357b5178",
+          "checksum": "md5:7f65ce00ba516dba57bec8ad42d74bd4",
+          "ext": "zip",
+          "size": 19015840728,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260624-ManC-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260624-ManC-Pos1.zip": {
+          "id": "8fb3a613-45c3-4782-aa23-a3e247d8674f",
+          "checksum": "md5:4052ff6c73a10b7aac7882657e60ddcb",
+          "ext": "zip",
+          "size": 7246467636,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260624-ManC-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260702-ManC-Pos2.zip": {
+          "id": "36aadae3-f78c-42d7-b5c1-aa6b87148701",
+          "checksum": "md5:689f779808b2e380c2fd4ee39b6fd3f5",
+          "ext": "zip",
+          "size": 21166943083,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260702-ManC-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260702-ManC-Pos5.zip": {
+          "id": "22b96511-134f-45b2-bef5-7ea2f54d36b4",
+          "checksum": "md5:a339f3baa5f2c4573784ba2d41164a6b",
+          "ext": "zip",
+          "size": 7889636707,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260702-ManC-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260702-ManC-Pos1.zip": {
+          "id": "c30f6892-b156-4ac2-b75c-6f792c8561ea",
+          "checksum": "md5:13e31a895d89985e2f0b51a3bad54ea9",
+          "ext": "zip",
+          "size": 1982579696,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260702-ManC-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260624-ManC-Pos2.zip": {
+          "id": "c8ad9854-1d66-4283-9504-a4bbf25be7c5",
+          "checksum": "md5:ff438d437e0c8de8ce44c33a255c8280",
+          "ext": "zip",
+          "size": 11998739334,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260624-ManC-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260702-ManC-Pos3.zip": {
+          "id": "5025717f-7920-4a69-b3d3-788c59e8c55d",
+          "checksum": "md5:e1e590e3ccbc6603ca47ca6e6568ad7a",
+          "ext": "zip",
+          "size": 10337305974,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260702-ManC-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260624-ManC-Pos5.zip": {
+          "id": "bc75f0f1-9d76-46a4-a876-16bfd8fe9af2",
+          "checksum": "md5:99e2ec6bde76b6203b9ac0f6167ef3a0",
+          "ext": "zip",
+          "size": 826528786,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260624-ManC-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260717-ManC-Pos5.zip": {
+          "id": "9149e247-3047-42f5-b224-6a67f75b8767",
+          "checksum": "md5:370be058bf38c01072581d67bd0e15b3",
+          "ext": "zip",
+          "size": 15424788579,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260717-ManC-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260730-ManB-Pos2.zip": {
+          "id": "b691d697-74ed-4028-a69a-03a10ce21bf4",
+          "checksum": "md5:842528f5a3a494571b0fb968ff461249",
+          "ext": "zip",
+          "size": 800825018,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260730-ManB-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260717-ManC-Pos4.zip": {
+          "id": "4340488e-5dba-4cd7-80a5-583cda46084d",
+          "checksum": "md5:bb71f32421c31cef9a57c2ad4f86df38",
+          "ext": "zip",
+          "size": 27772421718,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260717-ManC-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260717-ManC-Pos2.zip": {
+          "id": "0564eb14-a193-47a0-a9c0-155b90e27fa0",
+          "checksum": "md5:e8b14461a1305da9a6840d849da1d75d",
+          "ext": "zip",
+          "size": 4869738027,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260717-ManC-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260717-ManC-Pos1.zip": {
+          "id": "13588e35-a6f9-47ab-809e-a023096d9c3b",
+          "checksum": "md5:788e2f1732f9d135bf507b111e428d1a",
+          "ext": "zip",
+          "size": 8863941378,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260717-ManC-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260717-ManC-Pos3.zip": {
+          "id": "19c6b373-35b9-47c9-8dfb-2749e71cbe3d",
+          "checksum": "md5:9fa8476a636d01e000c6294f3bd00f6f",
+          "ext": "zip",
+          "size": 15278584589,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260717-ManC-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260730-ManB-Pos1.zip": {
+          "id": "99e802f6-a42b-4df9-baca-48ebdfa8b4f2",
+          "checksum": "md5:9d6282bf08591a4e1b414a9d7b5b4581",
+          "ext": "zip",
+          "size": 176402627,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260730-ManB-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260818-ManD-Pos3.zip": {
+          "id": "696956b0-bb13-4f2e-8ba4-ec8a56ce2eda",
+          "checksum": "md5:83735c4fb77818de230f2b9e04561a01",
+          "ext": "zip",
+          "size": 1316889794,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260818-ManD-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260730-ManB-Pos4.zip": {
+          "id": "fa269e2a-b089-4690-a9dd-b6e3ea2e9fc4",
+          "checksum": "md5:0621050e9801889a6e9d9b2d5fa7273f",
+          "ext": "zip",
+          "size": 20773019929,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260730-ManB-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260811-ManB-Pos1.zip": {
+          "id": "a142a5c2-8494-4066-ac77-3f876ee88a17",
+          "checksum": "md5:8f23ca7b3a52f3be8aa76c60668145c6",
+          "ext": "zip",
+          "size": 573486309,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260811-ManB-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260811-ManB-Pos4.zip": {
+          "id": "94c6761b-2ff3-40bd-b8db-196ed7d63e7a",
+          "checksum": "md5:ac0366a8286a413e3613320cada28600",
+          "ext": "zip",
+          "size": 14191066496,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260811-ManB-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260811-ManB-Pos2.zip": {
+          "id": "cca99252-0081-4bf7-be91-0b8baa32f7ff",
+          "checksum": "md5:8f044d75cbbe54b86ad52e7c41dda95b",
+          "ext": "zip",
+          "size": 11019035944,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260811-ManB-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260825-ManD-Pos3.zip": {
+          "id": "29abbe11-d1f1-455d-88e1-0b223126f58d",
+          "checksum": "md5:e0a7ba71d49bb018f6f82e3b3805bd9b",
+          "ext": "zip",
+          "size": 8672938943,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260825-ManD-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260818-ManD-Pos2.zip": {
+          "id": "9b0d7ee5-68ea-43fb-b390-c2fd6e499f4a",
+          "checksum": "md5:dc155aa78a390469c1d12e3be33ff2cf",
+          "ext": "zip",
+          "size": 1434781248,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260818-ManD-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260825-ManD-Pos1.zip": {
+          "id": "a1ca34c7-fb63-41b1-8fd7-2c9c828b4fa1",
+          "checksum": "md5:0864f1f83da64c1d4f5b51bad743eca1",
+          "ext": "zip",
+          "size": 8212719101,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260825-ManD-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260811-ManB-Pos5.zip": {
+          "id": "5d35a706-c00f-4a23-970e-4c1f284abe4d",
+          "checksum": "md5:54a1c26dc24cf0af26da00b7d4e28f2e",
+          "ext": "zip",
+          "size": 2913393475,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260811-ManB-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260818-ManD-Pos4.zip": {
+          "id": "a4800c17-9267-4f34-b1f8-f684f3141606",
+          "checksum": "md5:840b722cceb4ecbce413a86539c9e1d9",
+          "ext": "zip",
+          "size": 13672028867,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260818-ManD-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260825-ManD-Pos4.zip": {
+          "id": "896f7221-6e1c-4646-a716-1419eea55e7d",
+          "checksum": "md5:b7cec0f7cf9d270e345a0f3b5df6e218",
+          "ext": "zip",
+          "size": 2389518700,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260825-ManD-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260818-ManD-Pos1.zip": {
+          "id": "04d6b47c-1c45-49e4-bb38-2f38324fb2a9",
+          "checksum": "md5:ea03ecf339f45be3da7964d411347eeb",
+          "ext": "zip",
+          "size": 6315659878,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260818-ManD-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260825-ManD-Pos5.zip": {
+          "id": "13d08b75-7dff-4b23-87d1-95ff4db7359c",
+          "checksum": "md5:6e9624bbbf9baff607133195f9c3c2e9",
+          "ext": "zip",
+          "size": 6821938419,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260825-ManD-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260916-ManA-Pos2.zip": {
+          "id": "67ff748a-d5af-40a3-8e6a-6bafe32ccebe",
+          "checksum": "md5:f5ff180492d571244057aaff47fb52f3",
+          "ext": "zip",
+          "size": 817587315,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260916-ManA-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260910-ManA-Pos1.zip": {
+          "id": "e29724d1-b06f-4a36-99df-c242c1aae37e",
+          "checksum": "md5:0a6db4ec492668321b4041a09658e6f8",
+          "ext": "zip",
+          "size": 627502540,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260910-ManA-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260910-ManA-Pos4.zip": {
+          "id": "41cc1455-2d7f-4799-a376-93bd0942aca9",
+          "checksum": "md5:f059ed2e65be0071c21d06be72e6ce70",
+          "ext": "zip",
+          "size": 5313284786,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260910-ManA-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260910-ManA-Pos2.zip": {
+          "id": "cfecf543-dbe1-4055-8fe3-d2f1b47bca97",
+          "checksum": "md5:fe95a49a73119846beb70d9fc5317b18",
+          "ext": "zip",
+          "size": 1876554352,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260910-ManA-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260916-ManA-Pos1.zip": {
+          "id": "8974fc6e-6e78-4266-a9a1-576f43f0f9c8",
+          "checksum": "md5:d40b0e27a1a7b33743cc7a9159f686e1",
+          "ext": "zip",
+          "size": 684208828,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260916-ManA-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260916-ManA-Pos5.zip": {
+          "id": "acad468b-80b1-4c71-bf81-402c2e49c525",
+          "checksum": "md5:e081f4593f114a9b5be3a08b8a42e19f",
+          "ext": "zip",
+          "size": 936601570,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260916-ManA-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260910-ManA-Pos5.zip": {
+          "id": "a55ddb3e-8e1c-4544-afc7-5db96e8dc8f5",
+          "checksum": "md5:2aea8129fa13ca9668c223b83387b1bd",
+          "ext": "zip",
+          "size": 910893626,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260910-ManA-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        }
+      }
+    },
+    "pids": {
+      "doi": {
+        "identifier": "10.48700/hjbxn-0yc34",
+        "provider": "datacite",
+        "client": "datacite"
+      },
+      "oai": {
+        "identifier": "oai:datarepo.eosc.cz:hjbxn-0yc34",
+        "provider": "oai"
+      }
+    },
+    "access": {
+      "record": "public",
+      "files": "public",
+      "embargo": {
+        "active": false,
+        "reason": null
+      },
+      "status": "open"
+    },
+    "media_files": {
+      "enabled": false,
+      "order": [],
+      "count": 0,
+      "total_bytes": 0,
+      "entries": {}
+    },
+    "status": "published",
+    "deletion_status": {
+      "is_deleted": false,
+      "status": "P"
+    },
+    "stats": {
+      "this_version": {
+        "views": 8,
+        "unique_views": 2,
+        "downloads": 1,
+        "unique_downloads": 1,
+        "data_volume": 936248770.0
+      },
+      "all_versions": {
+        "views": 30,
+        "unique_views": 15,
+        "downloads": 4,
+        "unique_downloads": 4,
+        "data_volume": 2225299268.0
+      }
+    },
+    "state": "published",
+    "state_timestamp": "2026-10-04T07:32:34.058452+00:00",
+    "custom_fields": {}
+  },
+  {
     "id": "datst.3q9we-bks74",
     "created": "2022-01-28T09:47:38.309898+00:00",
     "updated": "2026-06-23T11:04:19.121205+00:00",
@@ -8077,751 +9313,6 @@
     },
     "state": "published",
     "state_timestamp": "2026-06-19T12:41:36.836020+00:00",
-    "custom_fields": {}
-  },
-  {
-    "id": "datst.1kwkf-yr258",
-    "created": "2026-04-17T06:31:58.030489+00:00",
-    "updated": "2026-06-23T11:04:01.766022+00:00",
-    "links": {
-      "self": "https://datarepo.eosc.cz/api/datasets/datst.1kwkf-yr258",
-      "parent": "https://datarepo.eosc.cz/api/datasets/50xmn-7g093",
-      "latest": "https://datarepo.eosc.cz/api/datasets/datst.1kwkf-yr258/versions/latest",
-      "record": "https://datarepo.eosc.cz/api/datasets/datst.1kwkf-yr258",
-      "versions": "https://datarepo.eosc.cz/api/datasets/datst.1kwkf-yr258/versions",
-      "self_html": "https://datarepo.eosc.cz/datasets/records/datst.1kwkf-yr258",
-      "latest_html": "https://datarepo.eosc.cz/datasets/records/datst.1kwkf-yr258/latest",
-      "doi": "https://doi.org/10.48700/datst.1kwkf-yr258",
-      "self_doi": "https://doi.org/10.48700/datst.1kwkf-yr258",
-      "self_doi_html": "https://datarepo.eosc.cz/doi/10.48700/datst.1kwkf-yr258",
-      "reserve_doi": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/draft/pids/doi",
-      "parent_html": "https://datarepo.eosc.cz/records/50xmn-7g093",
-      "parent_doi": "https://doi.org/10.48700/50xmn-7g093",
-      "parent_doi_html": "https://datarepo.eosc.cz/doi/10.48700/50xmn-7g093",
-      "self_iiif_manifest": "https://datarepo.eosc.cz/api/iiif/record:datst.1kwkf-yr258/manifest",
-      "self_iiif_sequence": "https://datarepo.eosc.cz/api/iiif/record:datst.1kwkf-yr258/sequence/default",
-      "files": "https://datarepo.eosc.cz/api/datasets/datst.1kwkf-yr258/files",
-      "media_files": "https://datarepo.eosc.cz/api/datasets/datst.1kwkf-yr258/media-files",
-      "archive": "https://datarepo.eosc.cz/api/datasets/datst.1kwkf-yr258/files-archive",
-      "archive_media": "https://datarepo.eosc.cz/api/datasets/datst.1kwkf-yr258/media-files-archive",
-      "access_links": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/access/links",
-      "access_grants": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/access/grants",
-      "access_users": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/access/users",
-      "access_groups": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/access/groups",
-      "access_request": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/access/request",
-      "access": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/access",
-      "communities": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/communities",
-      "communities-suggestions": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/communities-suggestions",
-      "request_deletion": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/request-deletion",
-      "file_modification": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/file-modification",
-      "quota_increase": "https://datarepo.eosc.cz/api/records/datst.1kwkf-yr258/quota-increase",
-      "requests": "https://datarepo.eosc.cz/api/requests/?topic=record:datst.1kwkf-yr258",
-      "applicable-requests": "https://datarepo.eosc.cz/api/requests/applicable?topic=record:datst.1kwkf-yr258"
-    },
-    "revision_id": 8,
-    "parent": {
-      "id": "50xmn-7g093",
-      "access": {
-        "owned_by": {
-          "user": "312"
-        },
-        "settings": {
-          "allow_user_requests": false,
-          "allow_guest_requests": false,
-          "accept_conditions_text": null,
-          "secret_link_expiration": 0
-        }
-      },
-      "communities": {},
-      "pids": {
-        "doi": {
-          "identifier": "10.48700/50xmn-7g093",
-          "provider": "datacite",
-          "client": "datacite"
-        }
-      },
-      "workflow": "individual"
-    },
-    "versions": {
-      "is_latest": true,
-      "index": 1
-    },
-    "is_published": true,
-    "is_draft": false,
-    "$schema": "local://datasets-v1.1.0.json",
-    "metadata": {
-      "publication_date": "2026-02-05",
-      "title": "Data for \"Ozonization for MALDI-2 MS imaging of carbon–carbon double bond positional isomers of phosphatidylethanolamines in biological tissues\"",
-      "publisher": "Masarykova univerzita",
-      "additional_descriptions": [
-        {
-          "description": "<div><span>This dataset contains MALDI(-2) MS and MS/MS spectra and images of tissues treated with ozone recorded on timsTOF fleX MALDI-2 instrument (Bruker Daltonics GmbH) in the original file format</span><span>&nbsp;distributed into folders named according to the figures in the linked publication</span><span>. Exceptions are Figure S6 containing ESI MS/MS spectra from Q-Exactive (Thermo Fisher Scientific) in .raw format and Figure S10 contains data converted to .sbd file format (SCiLS base data) used by SCiLS Lab software (Bruker Daltonics GmbH) to reduce data size. Figure 1 contains&nbsp;</span><span>MALDI-2 MS and MALDI-2 MS</span><span>2</span><span>&nbsp;of PE 34:1&nbsp;</span><span>ozonide</span><span>&nbsp;recorded from mouse brain. Figure 2 contains&nbsp;</span><span>MALDI-2 MS</span><span>2</span><span>I&nbsp;of&nbsp;</span><span>PE 36:1 isomers in&nbsp;</span><span>the low-grade adenocarcinoma tissue. Figure 3 two&nbsp;</span><span>MALDI-2 MS</span><span>2</span><span>I</span><span>&nbsp;of PE 34:1 and PE 36:1 isomers in prenatal embryo, Figure 4&nbsp;</span><span>MALDI-2 MS</span><span>2</span><span>I of&nbsp;</span><span>PC 34:1 isomers in mouse pup. The </span><span>remaining data covers the MALDI MS and MSI experiments is provided </span><span>in the Supporting Information.</span></div>",
-          "type": {
-            "id": "abstract",
-            "title": {
-              "cs": "Abstrakt",
-              "de": "Abstract",
-              "en": "Abstract",
-              "es": "Resumen",
-              "sv": "Abstract"
-            }
-          },
-          "lang": {
-            "id": "ENG",
-            "title": {
-              "cs": "angličtina",
-              "en": "English"
-            }
-          }
-        },
-        {
-          "description": "<span>Sections of biological tissues (6 -20 μm thick) were prepared using a cryomicrotome&nbsp; at −20&nbsp;°C and thaw-mounted on standard non-conductive microscope glass slides. Tissues were</span><span>&nbsp;desalted by immersion into a cold (6&nbsp;°C) 50&nbsp;mmol&nbsp;L</span><span>−1</span><span>&nbsp;aqueous solution of ammonium acetate three times for 5&nbsp;s. T</span><span>he ozonization was carried out in a</span><span>&nbsp;500&nbsp;mL glass flask with the glass slide positioned at the bottom.&nbsp;The ozone-enriched gas supplied by an ozone generator at a flow rate of 0.130&nbsp;L&nbsp;min</span><span>−1 </span><span>was introduced to initiate the reaction. Ozone production was&nbsp;</span><span>∼2.76&nbsp;g per minute (calculated based on the manufacturer's information). Afterwards,&nbsp;</span><span>the DHB matrix was applied to the tissue sections by sublimation using a home-built apparatus with an evacuated chamber</span><span>. In brief, 1.5&nbsp;mL of a 20&nbsp;mg&nbsp;mL</span><span>−1</span><span>&nbsp;DHB solution in acetone was loaded into a preheated brass reservoir, and the solvent was allowed to evaporate.&nbsp;</span><span>The sublimation proceeded for 15&nbsp;min at ∼5&nbsp;×&nbsp;10</span><span>−3</span><span>&nbsp;mbar and the matrix reservoir temperature of 130&nbsp;°C. The matrix deposition resulted in a coverage of 330&nbsp;±&nbsp;20&nbsp;μg&nbsp;cm</span><span>−2</span><span>, calculated by weighing the glass slide before and after sublimation.&nbsp;</span><span>Most of the MS and MSI measurements were conducted using a prototype timsTOF fleX MALDI-2 mass spectrometer (Bruker Daltonics)</span><span>&nbsp;in the positive ion mode with the activated high sensitivity detection and the ion detection range set to&nbsp;</span><em>m/z</em><span>&nbsp;300–1000 and&nbsp;</span><em>m/z</em><span>&nbsp;400–800 for full-scan MALDI(-2) MS and MS</span><span>2</span><span>&nbsp;measurements, respectively. The mass resolving power of the instrument was 40,000 (FWHM) in the phospholipid mass range, and mass accuracy was ≤2&nbsp;ppm with external calibration. In MALDI-2 MS</span><span>2</span><span>&nbsp;experiments, CID with nitrogen as the collision gas was employed. The optimal collision energy (CE) was set to 20&nbsp;eV, the collision cell RF voltage to 2000&nbsp;V.&nbsp;</span><span>The MSI data </span><span>were </span><span>evaluated and visualized using SCiLS Lab MVS (vs 2023a, Bruker Daltonics). The ESI MS data were recorded on a Q-Exactive mass spectrometer (Thermo Scientific) with a mass resolving power of 140,000.</span>",
-          "type": {
-            "id": "methods",
-            "title": {
-              "cs": "Metody",
-              "de": "Methoden",
-              "en": "Methods",
-              "es": "Métodos",
-              "sv": "Metoder"
-            }
-          },
-          "lang": {
-            "id": "ENG",
-            "title": {
-              "cs": "angličtina",
-              "en": "English"
-            }
-          }
-        }
-      ],
-      "creators": [
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Bezdeková, Dominika",
-            "given_name": "Dominika",
-            "family_name": "Bezdeková",
-            "identifiers": [
-              {
-                "identifier": "0009-0004-0764-6522",
-                "scheme": "orcid"
-              }
-            ]
-          },
-          "affiliations": [
-            {
-              "id": "02j46qs45",
-              "name": "Masaryk University",
-              "identifiers": [
-                {
-                  "identifier": "02j46qs45",
-                  "scheme": "ror"
-                },
-                {
-                  "identifier": "grid.10267.32",
-                  "scheme": "grid"
-                },
-                {
-                  "identifier": "0000 0001 2194 0956",
-                  "scheme": "isni"
-                }
-              ]
-            },
-            {
-              "id": "orjk:12310:0001",
-              "name": "Ústav chemie / Přírodovědecká fakulta / Jihočeská univerzita v Českých Budějovicích",
-              "identifiers": [
-                {
-                  "identifier": "orjk:12310",
-                  "scheme": "parent-id"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Hendrych, Michal",
-            "given_name": "Michal",
-            "family_name": "Hendrych",
-            "identifiers": [
-              {
-                "identifier": "0000-0002-1024-7408",
-                "scheme": "orcid"
-              }
-            ]
-          },
-          "affiliations": [
-            {
-              "id": "02j46qs45",
-              "name": "Masaryk University",
-              "identifiers": [
-                {
-                  "identifier": "02j46qs45",
-                  "scheme": "ror"
-                },
-                {
-                  "identifier": "grid.10267.32",
-                  "scheme": "grid"
-                },
-                {
-                  "identifier": "0000 0001 2194 0956",
-                  "scheme": "isni"
-                }
-              ]
-            },
-            {
-              "id": "orjk:17110",
-              "name": "Lékařská fakulta / Ostravská univerzita",
-              "identifiers": [
-                {
-                  "identifier": "17110",
-                  "scheme": "orjk"
-                },
-                {
-                  "identifier": "00pyqav47",
-                  "scheme": "parent-id"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Schwenzfeier, Jan",
-            "given_name": "Jan",
-            "family_name": "Schwenzfeier",
-            "identifiers": [
-              {
-                "identifier": "0000-0002-0795-2405",
-                "scheme": "orcid"
-              }
-            ]
-          },
-          "affiliations": [
-            {
-              "id": "00pd74e08",
-              "name": "University of Münster",
-              "identifiers": [
-                {
-                  "identifier": "00pd74e08",
-                  "scheme": "ror"
-                },
-                {
-                  "identifier": "grid.5949.1",
-                  "scheme": "grid"
-                },
-                {
-                  "identifier": "0000 0001 2172 9288",
-                  "scheme": "isni"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Soltwisch, Jens",
-            "given_name": "Jens",
-            "family_name": "Soltwisch",
-            "identifiers": [
-              {
-                "identifier": "0000-0002-0258-1561",
-                "scheme": "orcid"
-              }
-            ]
-          },
-          "affiliations": [
-            {
-              "id": "00pd74e08",
-              "name": "University of Münster",
-              "identifiers": [
-                {
-                  "identifier": "00pd74e08",
-                  "scheme": "ror"
-                },
-                {
-                  "identifier": "grid.5949.1",
-                  "scheme": "grid"
-                },
-                {
-                  "identifier": "0000 0001 2172 9288",
-                  "scheme": "isni"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Dreisewerd, Klaus",
-            "given_name": "Klaus",
-            "family_name": "Dreisewerd",
-            "identifiers": [
-              {
-                "identifier": "0000-0002-7619-808X",
-                "scheme": "orcid"
-              }
-            ]
-          },
-          "affiliations": [
-            {
-              "id": "00pd74e08",
-              "name": "University of Münster",
-              "identifiers": [
-                {
-                  "identifier": "00pd74e08",
-                  "scheme": "ror"
-                },
-                {
-                  "identifier": "grid.5949.1",
-                  "scheme": "grid"
-                },
-                {
-                  "identifier": "0000 0001 2172 9288",
-                  "scheme": "isni"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Vlček, Petr",
-            "given_name": "Petr",
-            "family_name": "Vlček"
-          },
-          "affiliations": [
-            {
-              "id": "02j46qs45",
-              "name": "Masaryk University",
-              "identifiers": [
-                {
-                  "identifier": "02j46qs45",
-                  "scheme": "ror"
-                },
-                {
-                  "identifier": "grid.10267.32",
-                  "scheme": "grid"
-                },
-                {
-                  "identifier": "0000 0001 2194 0956",
-                  "scheme": "isni"
-                }
-              ]
-            },
-            {
-              "id": "orjk:17110",
-              "name": "Lékařská fakulta / Ostravská univerzita",
-              "identifiers": [
-                {
-                  "identifier": "17110",
-                  "scheme": "orjk"
-                },
-                {
-                  "identifier": "00pyqav47",
-                  "scheme": "parent-id"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Preisler, Jan",
-            "given_name": "Jan",
-            "family_name": "Preisler"
-          },
-          "affiliations": [
-            {
-              "id": "02j46qs45",
-              "name": "Masaryk University",
-              "identifiers": [
-                {
-                  "identifier": "02j46qs45",
-                  "scheme": "ror"
-                },
-                {
-                  "identifier": "grid.10267.32",
-                  "scheme": "grid"
-                },
-                {
-                  "identifier": "0000 0001 2194 0956",
-                  "scheme": "isni"
-                }
-              ]
-            },
-            {
-              "id": "orjk:12310:0001",
-              "name": "Ústav chemie / Přírodovědecká fakulta / Jihočeská univerzita v Českých Budějovicích",
-              "identifiers": [
-                {
-                  "identifier": "orjk:12310",
-                  "scheme": "parent-id"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Bednařík, Antonín",
-            "given_name": "Antonín",
-            "family_name": "Bednařík"
-          },
-          "affiliations": [
-            {
-              "id": "02j46qs45",
-              "name": "Masaryk University",
-              "identifiers": [
-                {
-                  "identifier": "02j46qs45",
-                  "scheme": "ror"
-                },
-                {
-                  "identifier": "grid.10267.32",
-                  "scheme": "grid"
-                },
-                {
-                  "identifier": "0000 0001 2194 0956",
-                  "scheme": "isni"
-                }
-              ]
-            },
-            {
-              "id": "orjk:12310:0001",
-              "name": "Ústav chemie / Přírodovědecká fakulta / Jihočeská univerzita v Českých Budějovicích",
-              "identifiers": [
-                {
-                  "identifier": "orjk:12310",
-                  "scheme": "parent-id"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "dates": [
-        {
-          "date": "2026-02-05",
-          "type": {
-            "id": "Available",
-            "title": {
-              "cs": "Datum zveřejnění datasetu",
-              "en": "Date Available"
-            }
-          },
-          "description": "The date the resource is made publicly available. May be a range.\nTo indicate the end of an embargo period, use Available."
-        },
-        {
-          "date": "2022",
-          "type": {
-            "id": "CreatedStart",
-            "title": {
-              "cs": "Datum vytvoření datasetu (od)",
-              "en": "Date Created Start"
-            }
-          },
-          "description": "The date the resource itself was put together; this could refer to a timeframe in ancient history, the start date (of the range) for a final component, e.g., the finalised file with all the data.\nRecommended for discovery."
-        },
-        {
-          "date": "2023",
-          "type": {
-            "id": "CreatedEnd",
-            "title": {
-              "cs": "Datum vytvoření datasetu (do)",
-              "en": "Date Created End"
-            }
-          },
-          "description": "The date the resource itself was put together; this could refer to a timeframe in ancient history, the end date (of the range) for a final component, e.g., the finalised file with all the data.\nRecommended for discovery."
-        },
-        {
-          "date": "2022",
-          "type": {
-            "id": "CollectedStart",
-            "title": {
-              "cs": "Datum sběru dat (do)",
-              "en": "Date Collected Start"
-            }
-          },
-          "description": "The date range (start date) in which the resource content was collected.\nTo indicate precise or particular timeframes in which research was conducted."
-        },
-        {
-          "date": "2023",
-          "type": {
-            "id": "CollectedEnd",
-            "title": {
-              "cs": "Datum sběru dat (od)",
-              "en": "Date Collected End"
-            }
-          },
-          "description": "The date range (end date) in which the resource content was collected.\nTo indicate precise or particular timeframes in which research was conducted."
-        }
-      ],
-      "subjects": [
-        {
-          "id": "10406",
-          "subject": "Analytická chemie"
-        },
-        {
-          "subject": "On-tissue reactions"
-        },
-        {
-          "subject": "mouse pups/embryos"
-        },
-        {
-          "subject": "MALDI"
-        },
-        {
-          "subject": "mass spectrometry imaging"
-        },
-        {
-          "subject": "ozonization"
-        },
-        {
-          "subject": "lipid isomers"
-        },
-        {
-          "subject": "whole body imaging"
-        },
-        {
-          "subject": "adenocarcinoma"
-        },
-        {
-          "subject": "MALDI-2"
-        }
-      ],
-      "funding": [
-        {
-          "funder": {
-            "id": "01pv73b02",
-            "name": "Grantová agentura České republiky"
-          },
-          "award": {
-            "number": "GA24-10924S",
-            "title": {
-              "cs": "Digitální multiplexní zobrazovací hmotnostní spektrometrie",
-              "en": "Digital multiplexed imaging mass spectrometry"
-            },
-            "program": "Standardní projekty"
-          }
-        }
-      ],
-      "resource_type": {
-        "id": "c_ddb1",
-        "title": {
-          "cs": "datová sada",
-          "en": "dataset"
-        }
-      },
-      "languages": [
-        {
-          "id": "ENG",
-          "title": {
-            "cs": "angličtina",
-            "en": "English"
-          }
-        }
-      ],
-      "related_identifiers": [
-        {
-          "identifier": "10.1016/j.aca.2025.344814",
-          "scheme": "doi",
-          "relation_type": {
-            "id": "IsReferencedBy",
-            "title": {
-              "cs": "je na něj odkazováno z (čeho)",
-              "en": "is referenced by"
-            }
-          },
-          "resource_type": {
-            "id": "c_6501",
-            "title": {
-              "cs": "článek v odborném časopisu",
-              "en": "journal article"
-            }
-          }
-        }
-      ],
-      "related_resources": [
-        {
-          "publication_date": "2026",
-          "title": "Ozonization for MALDI-2 MS imaging of carbon–carbon double bond positional isomers of phosphatidylethanolamines in biological tissues",
-          "identifiers": [
-            {
-              "identifier": "10.1016/j.aca.2025.344814",
-              "scheme": "doi"
-            }
-          ],
-          "creators": [
-            {
-              "person_or_org": {
-                "type": "personal",
-                "name": "Bezdeková, Dominika",
-                "given_name": "Dominika",
-                "family_name": "Bezdeková"
-              }
-            },
-            {
-              "person_or_org": {
-                "type": "personal",
-                "name": "Hendrych, Michal",
-                "given_name": "Michal",
-                "family_name": "Hendrych"
-              }
-            },
-            {
-              "person_or_org": {
-                "type": "personal",
-                "name": "Schwenzfeier, Jan",
-                "given_name": "Jan",
-                "family_name": "Schwenzfeier"
-              }
-            },
-            {
-              "person_or_org": {
-                "type": "personal",
-                "name": "Soltwisch, Jens",
-                "given_name": "Jens",
-                "family_name": "Soltwisch"
-              }
-            },
-            {
-              "person_or_org": {
-                "type": "personal",
-                "name": "Dreisewerd, Klaus",
-                "given_name": "Klaus",
-                "family_name": "Dreisewerd"
-              }
-            },
-            {
-              "person_or_org": {
-                "type": "personal",
-                "name": "Vlček, Petr",
-                "given_name": "Petr",
-                "family_name": "Vlček"
-              }
-            },
-            {
-              "person_or_org": {
-                "type": "personal",
-                "name": "Preisler, Jan",
-                "given_name": "Jan",
-                "family_name": "Preisler"
-              }
-            },
-            {
-              "person_or_org": {
-                "type": "personal",
-                "name": "Bednařík, Antonín",
-                "given_name": "Antonín",
-                "family_name": "Bednařík"
-              }
-            }
-          ],
-          "resource_type": {
-            "id": "c_6501",
-            "title": {
-              "cs": "článek v odborném časopisu",
-              "en": "journal article"
-            }
-          }
-        }
-      ],
-      "rights": [
-        {
-          "id": "4-BY",
-          "title": {
-            "cs": "Creative Commons Uveďte původ 4.0 Mezinárodní licence",
-            "en": "Creative Commons Attribution 4.0 International License"
-          },
-          "description": {
-            "cs": "Umožňuje ostatním rozmnožovat, rozšiřovat, vystavovat a sdělovat dílo a z něj odvozená díla pouze při uvedení autora. V češtině: Uveďte původ (v češtině dříve označováno jako Uveďte autora); v angličtině: Attribution; zkratka CC BY.",
-            "en": "This license enables reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use. Abbreviation CC BY"
-          },
-          "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-        }
-      ]
-    },
-    "files": {
-      "enabled": true,
-      "order": [],
-      "count": 1,
-      "total_bytes": 259196421378,
-      "entries": {
-        "Data for Ozonization for MALDI-2 MS imaging of carbon–carbon double bond positional isomers of phosphatidylethanolamines in biological tissues.rar": {
-          "id": "2d3403a5-cd0e-4d4d-9860-de0c3da33ad4",
-          "checksum": "md5:ecaf467041bb667fcdc778986e2594ec",
-          "ext": "rar",
-          "size": 259196421378,
-          "mimetype": "application/vnd.rar",
-          "storage_class": "L",
-          "key": "Data for Ozonization for MALDI-2 MS imaging of carbon–carbon double bond positional isomers of phosphatidylethanolamines in biological tissues.rar",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        }
-      }
-    },
-    "pids": {
-      "doi": {
-        "identifier": "10.48700/datst.1kwkf-yr258",
-        "provider": "datacite",
-        "client": "datacite"
-      },
-      "oai": {
-        "identifier": "oai:datarepo.eosc.cz:datst.1kwkf-yr258",
-        "provider": "oai"
-      }
-    },
-    "access": {
-      "record": "public",
-      "files": "public",
-      "embargo": {
-        "active": false,
-        "reason": null
-      },
-      "status": "open"
-    },
-    "media_files": {
-      "enabled": false,
-      "order": [],
-      "count": 0,
-      "total_bytes": 0,
-      "entries": {}
-    },
-    "status": "published",
-    "deletion_status": {
-      "is_deleted": false,
-      "status": "P"
-    },
-    "stats": {
-      "this_version": {
-        "views": 9,
-        "unique_views": 7,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
-      },
-      "all_versions": {
-        "views": 6,
-        "unique_views": 6,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
-      }
-    },
-    "state": "published",
-    "state_timestamp": "2026-06-19T13:09:57.270037+00:00",
     "custom_fields": {}
   }
 ]
