@@ -2092,15 +2092,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 7,
-        "unique_views": 7,
+        "views": 8,
+        "unique_views": 8,
         "downloads": 123,
         "unique_downloads": 82,
         "data_volume": 7535691611446.0
       },
       "all_versions": {
-        "views": 7,
-        "unique_views": 7,
+        "views": 8,
+        "unique_views": 8,
         "downloads": 123,
         "unique_downloads": 82,
         "data_volume": 7535691611446.0
@@ -4556,7 +4556,7 @@
   {
     "id": "hjbxn-0yc34",
     "created": "2026-10-04T07:32:34.054039+00:00",
-    "updated": "2026-10-04T07:46:35.983999+00:00",
+    "updated": "2026-10-05T08:35:56.436830+00:00",
     "links": {
       "self": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34",
       "parent": "https://datarepo.eosc.cz/api/datasets/m1qyd-htm14",
@@ -4564,6 +4564,7 @@
       "record": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34",
       "versions": "https://datarepo.eosc.cz/api/datasets/hjbxn-0yc34/versions",
       "self_html": "https://datarepo.eosc.cz/datasets/records/hjbxn-0yc34",
+      "preview_html": "https://datarepo.eosc.cz/datasets/records/hjbxn-0yc34?preview=1",
       "latest_html": "https://datarepo.eosc.cz/datasets/records/hjbxn-0yc34/latest",
       "doi": "https://doi.org/10.48700/hjbxn-0yc34",
       "self_doi": "https://doi.org/10.48700/hjbxn-0yc34",
@@ -4592,7 +4593,7 @@
       "requests": "https://datarepo.eosc.cz/api/requests/?topic=record:hjbxn-0yc34",
       "applicable-requests": "https://datarepo.eosc.cz/api/requests/applicable?topic=record:hjbxn-0yc34"
     },
-    "revision_id": 8,
+    "revision_id": 14,
     "parent": {
       "id": "m1qyd-htm14",
       "access": {
@@ -4770,7 +4771,7 @@
               "en": "Date Submitted"
             }
           },
-          "description": "corrected version of dataset"
+          "description": "C|orrected version of dataset, mainly torque calculation"
         }
       ],
       "subjects": [
@@ -4813,6 +4814,24 @@
           },
           "award": {
             "number": "CZ.02.1.01/0.0/0.0/17_043/0010085"
+          }
+        },
+        {
+          "funder": {
+            "id": "00k4n6c32",
+            "name": "Evropská komise"
+          },
+          "award": {
+            "number": "101112338",
+            "title": {
+              "cs": "Reliable Powerdown for Industrial Drives"
+            },
+            "identifiers": [
+              {
+                "identifier": "https://www.r-podid.eu/",
+                "scheme": "url"
+              }
+            ]
           }
         }
       ],
@@ -5031,7 +5050,7 @@
       "enabled": true,
       "order": [],
       "count": 54,
-      "total_bytes": 513499867805,
+      "total_bytes": 513556686207,
       "entries": {
         "260818-ManD-Pos5.zip": {
           "id": "f6df0e2e-6270-4cfa-8596-f8adbe7cf97b",
@@ -5085,84 +5104,6 @@
             "hidden": false
           }
         },
-        "260313-ManA-Pos5.zip": {
-          "id": "dc5ca62c-8615-4814-a7c1-f2e99aee01d9",
-          "checksum": "md5:687c930b5c606df48db408fa5d6f539e",
-          "ext": "zip",
-          "size": 984271816,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260313-ManA-Pos5.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260313-ManA-Pos1.zip": {
-          "id": "56a87d08-0511-4cab-974b-cde12f289a22",
-          "checksum": "md5:dc72d32bc84a230da4e3fea47c40adfd",
-          "ext": "zip",
-          "size": 936248770,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260313-ManA-Pos1.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260604-ManC-Pos2.zip": {
-          "id": "f4b1990a-45a3-4ff7-9495-fb14d004716a",
-          "checksum": "md5:6a396043cafaa2401e0c733a0d29715d",
-          "ext": "zip",
-          "size": 1586185933,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260604-ManC-Pos2.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260401-ManB-Pos1.zip": {
-          "id": "c5e3aa01-6c2f-42f9-8ed9-afa6cad3b933",
-          "checksum": "md5:8e1d8f22395eb2d5157076330926b2a2",
-          "ext": "zip",
-          "size": 729801429,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260401-ManB-Pos1.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260507-ManB-Pos5.zip": {
-          "id": "84a61fe0-6787-4eae-b33f-066093196aaa",
-          "checksum": "md5:b9ff4c606a87c85423f9c9935de95975",
-          "ext": "zip",
-          "size": 27142226336,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260507-ManB-Pos5.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260604-ManC-Pos5.zip": {
-          "id": "6a3777dd-36b1-471a-9e55-bfe04a60e7d5",
-          "checksum": "md5:6681658b881e77ec756add710169177f",
-          "ext": "zip",
-          "size": 683976624,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260604-ManC-Pos5.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
         "260507-ManB-Pos2.zip": {
           "id": "5b9e5866-aff5-481a-9aad-7bef4c6704dd",
           "checksum": "md5:34ff22d30f9524242dc436d12df0f3d0",
@@ -5171,71 +5112,6 @@
           "mimetype": "application/zip",
           "storage_class": "L",
           "key": "260507-ManB-Pos2.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260615-ManC-Pos2.zip": {
-          "id": "8eb0f1a5-0438-4f42-8f7f-106e7cc99a2e",
-          "checksum": "md5:f5a2ab2922b932c16aaec3c209f69777",
-          "ext": "zip",
-          "size": 15686321679,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260615-ManC-Pos2.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260429-ManB-Pos5.zip": {
-          "id": "055e8251-ab9b-4d90-b0de-4de863104f86",
-          "checksum": "md5:488a2943f7e16f5e7684f8b97c30bebf",
-          "ext": "zip",
-          "size": 18903060040,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260429-ManB-Pos5.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260507-ManB-Pos4.zip": {
-          "id": "6b13e45f-07b6-4ebd-a4b3-48f7ec2223a2",
-          "checksum": "md5:cb55957971d3410bc23a313c55f136bc",
-          "ext": "zip",
-          "size": 42655116216,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260507-ManB-Pos4.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260507-ManB-Pos3.zip": {
-          "id": "cfc4f8c9-770c-418d-9662-3229d8dc68dc",
-          "checksum": "md5:0a539b17ad9c5c94110f3783fc07632c",
-          "ext": "zip",
-          "size": 43303303376,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260507-ManB-Pos3.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260604-ManC-Pos3.zip": {
-          "id": "c3335ca8-7ddf-4b6e-8efa-d16007beeb38",
-          "checksum": "md5:b29a3f42f31c85ec2230f804433a32a8",
-          "ext": "zip",
-          "size": 808698111,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260604-ManC-Pos3.zip",
           "metadata": {},
           "access": {
             "hidden": false
@@ -5267,32 +5143,6 @@
             "hidden": false
           }
         },
-        "260615-ManC-Pos5.zip": {
-          "id": "70341d39-7775-4710-b426-a7556f431a3f",
-          "checksum": "md5:88d814d159a8595bfc22ca5ab8dd75f5",
-          "ext": "zip",
-          "size": 18579252827,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260615-ManC-Pos5.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260624-ManC-Pos4.zip": {
-          "id": "c75eb146-53fd-485e-b7ac-b652357b5178",
-          "checksum": "md5:7f65ce00ba516dba57bec8ad42d74bd4",
-          "ext": "zip",
-          "size": 19015840728,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260624-ManC-Pos4.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
         "260624-ManC-Pos1.zip": {
           "id": "8fb3a613-45c3-4782-aa23-a3e247d8674f",
           "checksum": "md5:4052ff6c73a10b7aac7882657e60ddcb",
@@ -5301,58 +5151,6 @@
           "mimetype": "application/zip",
           "storage_class": "L",
           "key": "260624-ManC-Pos1.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260702-ManC-Pos2.zip": {
-          "id": "36aadae3-f78c-42d7-b5c1-aa6b87148701",
-          "checksum": "md5:689f779808b2e380c2fd4ee39b6fd3f5",
-          "ext": "zip",
-          "size": 21166943083,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260702-ManC-Pos2.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260702-ManC-Pos5.zip": {
-          "id": "22b96511-134f-45b2-bef5-7ea2f54d36b4",
-          "checksum": "md5:a339f3baa5f2c4573784ba2d41164a6b",
-          "ext": "zip",
-          "size": 7889636707,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260702-ManC-Pos5.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260702-ManC-Pos1.zip": {
-          "id": "c30f6892-b156-4ac2-b75c-6f792c8561ea",
-          "checksum": "md5:13e31a895d89985e2f0b51a3bad54ea9",
-          "ext": "zip",
-          "size": 1982579696,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260702-ManC-Pos1.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260624-ManC-Pos2.zip": {
-          "id": "c8ad9854-1d66-4283-9504-a4bbf25be7c5",
-          "checksum": "md5:ff438d437e0c8de8ce44c33a255c8280",
-          "ext": "zip",
-          "size": 11998739334,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260624-ManC-Pos2.zip",
           "metadata": {},
           "access": {
             "hidden": false
@@ -5384,71 +5182,6 @@
             "hidden": false
           }
         },
-        "260717-ManC-Pos5.zip": {
-          "id": "9149e247-3047-42f5-b224-6a67f75b8767",
-          "checksum": "md5:370be058bf38c01072581d67bd0e15b3",
-          "ext": "zip",
-          "size": 15424788579,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260717-ManC-Pos5.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260730-ManB-Pos2.zip": {
-          "id": "b691d697-74ed-4028-a69a-03a10ce21bf4",
-          "checksum": "md5:842528f5a3a494571b0fb968ff461249",
-          "ext": "zip",
-          "size": 800825018,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260730-ManB-Pos2.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260717-ManC-Pos4.zip": {
-          "id": "4340488e-5dba-4cd7-80a5-583cda46084d",
-          "checksum": "md5:bb71f32421c31cef9a57c2ad4f86df38",
-          "ext": "zip",
-          "size": 27772421718,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260717-ManC-Pos4.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260717-ManC-Pos2.zip": {
-          "id": "0564eb14-a193-47a0-a9c0-155b90e27fa0",
-          "checksum": "md5:e8b14461a1305da9a6840d849da1d75d",
-          "ext": "zip",
-          "size": 4869738027,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260717-ManC-Pos2.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260717-ManC-Pos1.zip": {
-          "id": "13588e35-a6f9-47ab-809e-a023096d9c3b",
-          "checksum": "md5:788e2f1732f9d135bf507b111e428d1a",
-          "ext": "zip",
-          "size": 8863941378,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260717-ManC-Pos1.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
         "260717-ManC-Pos3.zip": {
           "id": "19c6b373-35b9-47c9-8dfb-2749e71cbe3d",
           "checksum": "md5:9fa8476a636d01e000c6294f3bd00f6f",
@@ -5457,71 +5190,6 @@
           "mimetype": "application/zip",
           "storage_class": "L",
           "key": "260717-ManC-Pos3.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260730-ManB-Pos1.zip": {
-          "id": "99e802f6-a42b-4df9-baca-48ebdfa8b4f2",
-          "checksum": "md5:9d6282bf08591a4e1b414a9d7b5b4581",
-          "ext": "zip",
-          "size": 176402627,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260730-ManB-Pos1.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260818-ManD-Pos3.zip": {
-          "id": "696956b0-bb13-4f2e-8ba4-ec8a56ce2eda",
-          "checksum": "md5:83735c4fb77818de230f2b9e04561a01",
-          "ext": "zip",
-          "size": 1316889794,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260818-ManD-Pos3.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260730-ManB-Pos4.zip": {
-          "id": "fa269e2a-b089-4690-a9dd-b6e3ea2e9fc4",
-          "checksum": "md5:0621050e9801889a6e9d9b2d5fa7273f",
-          "ext": "zip",
-          "size": 20773019929,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260730-ManB-Pos4.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260811-ManB-Pos1.zip": {
-          "id": "a142a5c2-8494-4066-ac77-3f876ee88a17",
-          "checksum": "md5:8f23ca7b3a52f3be8aa76c60668145c6",
-          "ext": "zip",
-          "size": 573486309,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260811-ManB-Pos1.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260811-ManB-Pos4.zip": {
-          "id": "94c6761b-2ff3-40bd-b8db-196ed7d63e7a",
-          "checksum": "md5:ac0366a8286a413e3613320cada28600",
-          "ext": "zip",
-          "size": 14191066496,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260811-ManB-Pos4.zip",
           "metadata": {},
           "access": {
             "hidden": false
@@ -5540,58 +5208,6 @@
             "hidden": false
           }
         },
-        "260825-ManD-Pos3.zip": {
-          "id": "29abbe11-d1f1-455d-88e1-0b223126f58d",
-          "checksum": "md5:e0a7ba71d49bb018f6f82e3b3805bd9b",
-          "ext": "zip",
-          "size": 8672938943,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260825-ManD-Pos3.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260818-ManD-Pos2.zip": {
-          "id": "9b0d7ee5-68ea-43fb-b390-c2fd6e499f4a",
-          "checksum": "md5:dc155aa78a390469c1d12e3be33ff2cf",
-          "ext": "zip",
-          "size": 1434781248,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260818-ManD-Pos2.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260825-ManD-Pos1.zip": {
-          "id": "a1ca34c7-fb63-41b1-8fd7-2c9c828b4fa1",
-          "checksum": "md5:0864f1f83da64c1d4f5b51bad743eca1",
-          "ext": "zip",
-          "size": 8212719101,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260825-ManD-Pos1.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260811-ManB-Pos5.zip": {
-          "id": "5d35a706-c00f-4a23-970e-4c1f284abe4d",
-          "checksum": "md5:54a1c26dc24cf0af26da00b7d4e28f2e",
-          "ext": "zip",
-          "size": 2913393475,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260811-ManB-Pos5.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
         "260818-ManD-Pos4.zip": {
           "id": "a4800c17-9267-4f34-b1f8-f684f3141606",
           "checksum": "md5:840b722cceb4ecbce413a86539c9e1d9",
@@ -5600,45 +5216,6 @@
           "mimetype": "application/zip",
           "storage_class": "L",
           "key": "260818-ManD-Pos4.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260825-ManD-Pos4.zip": {
-          "id": "896f7221-6e1c-4646-a716-1419eea55e7d",
-          "checksum": "md5:b7cec0f7cf9d270e345a0f3b5df6e218",
-          "ext": "zip",
-          "size": 2389518700,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260825-ManD-Pos4.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260818-ManD-Pos1.zip": {
-          "id": "04d6b47c-1c45-49e4-bb38-2f38324fb2a9",
-          "checksum": "md5:ea03ecf339f45be3da7964d411347eeb",
-          "ext": "zip",
-          "size": 6315659878,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260818-ManD-Pos1.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          }
-        },
-        "260825-ManD-Pos5.zip": {
-          "id": "13d08b75-7dff-4b23-87d1-95ff4db7359c",
-          "checksum": "md5:6e9624bbbf9baff607133195f9c3c2e9",
-          "ext": "zip",
-          "size": 6821938419,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "260825-ManD-Pos5.zip",
           "metadata": {},
           "access": {
             "hidden": false
@@ -5696,27 +5273,183 @@
             "hidden": false
           }
         },
-        "260916-ManA-Pos1.zip": {
-          "id": "8974fc6e-6e78-4266-a9a1-576f43f0f9c8",
-          "checksum": "md5:d40b0e27a1a7b33743cc7a9159f686e1",
+        "260507-ManB-Pos5.zip": {
+          "id": "84a61fe0-6787-4eae-b33f-066093196aaa",
+          "checksum": "md5:b9ff4c606a87c85423f9c9935de95975",
           "ext": "zip",
-          "size": 684208828,
+          "size": 27142226336,
           "mimetype": "application/zip",
           "storage_class": "L",
-          "key": "260916-ManA-Pos1.zip",
+          "key": "260507-ManB-Pos5.zip",
           "metadata": {},
           "access": {
             "hidden": false
           }
         },
-        "260916-ManA-Pos5.zip": {
-          "id": "acad468b-80b1-4c71-bf81-402c2e49c525",
-          "checksum": "md5:e081f4593f114a9b5be3a08b8a42e19f",
+        "260604-ManC-Pos5.zip": {
+          "id": "6a3777dd-36b1-471a-9e55-bfe04a60e7d5",
+          "checksum": "md5:6681658b881e77ec756add710169177f",
           "ext": "zip",
-          "size": 936601570,
+          "size": 683976624,
           "mimetype": "application/zip",
           "storage_class": "L",
-          "key": "260916-ManA-Pos5.zip",
+          "key": "260604-ManC-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260313-ManA-Pos5.zip": {
+          "id": "dc5ca62c-8615-4814-a7c1-f2e99aee01d9",
+          "checksum": "md5:687c930b5c606df48db408fa5d6f539e",
+          "ext": "zip",
+          "size": 984271816,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260313-ManA-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260624-ManC-Pos4.zip": {
+          "id": "c75eb146-53fd-485e-b7ac-b652357b5178",
+          "checksum": "md5:7f65ce00ba516dba57bec8ad42d74bd4",
+          "ext": "zip",
+          "size": 19015840728,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260624-ManC-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260702-ManC-Pos2.zip": {
+          "id": "6b4b2cf6-4d02-40bd-b2bc-7464f71995cb",
+          "checksum": "md5:f333eb6a3ecfde25709f486b1ea45005",
+          "ext": "zip",
+          "size": 21223761485,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260702-ManC-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260429-ManB-Pos5.zip": {
+          "id": "055e8251-ab9b-4d90-b0de-4de863104f86",
+          "checksum": "md5:488a2943f7e16f5e7684f8b97c30bebf",
+          "ext": "zip",
+          "size": 18903060040,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260429-ManB-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260717-ManC-Pos4.zip": {
+          "id": "4340488e-5dba-4cd7-80a5-583cda46084d",
+          "checksum": "md5:bb71f32421c31cef9a57c2ad4f86df38",
+          "ext": "zip",
+          "size": 27772421718,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260717-ManC-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260717-ManC-Pos2.zip": {
+          "id": "0564eb14-a193-47a0-a9c0-155b90e27fa0",
+          "checksum": "md5:e8b14461a1305da9a6840d849da1d75d",
+          "ext": "zip",
+          "size": 4869738027,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260717-ManC-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260702-ManC-Pos5.zip": {
+          "id": "22b96511-134f-45b2-bef5-7ea2f54d36b4",
+          "checksum": "md5:a339f3baa5f2c4573784ba2d41164a6b",
+          "ext": "zip",
+          "size": 7889636707,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260702-ManC-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260811-ManB-Pos4.zip": {
+          "id": "94c6761b-2ff3-40bd-b8db-196ed7d63e7a",
+          "checksum": "md5:ac0366a8286a413e3613320cada28600",
+          "ext": "zip",
+          "size": 14191066496,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260811-ManB-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260825-ManD-Pos3.zip": {
+          "id": "29abbe11-d1f1-455d-88e1-0b223126f58d",
+          "checksum": "md5:e0a7ba71d49bb018f6f82e3b3805bd9b",
+          "ext": "zip",
+          "size": 8672938943,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260825-ManD-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260717-ManC-Pos1.zip": {
+          "id": "13588e35-a6f9-47ab-809e-a023096d9c3b",
+          "checksum": "md5:788e2f1732f9d135bf507b111e428d1a",
+          "ext": "zip",
+          "size": 8863941378,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260717-ManC-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260825-ManD-Pos4.zip": {
+          "id": "896f7221-6e1c-4646-a716-1419eea55e7d",
+          "checksum": "md5:b7cec0f7cf9d270e345a0f3b5df6e218",
+          "ext": "zip",
+          "size": 2389518700,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260825-ManD-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260818-ManD-Pos1.zip": {
+          "id": "04d6b47c-1c45-49e4-bb38-2f38324fb2a9",
+          "checksum": "md5:ea03ecf339f45be3da7964d411347eeb",
+          "ext": "zip",
+          "size": 6315659878,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260818-ManD-Pos1.zip",
           "metadata": {},
           "access": {
             "hidden": false
@@ -5730,6 +5463,292 @@
           "mimetype": "application/zip",
           "storage_class": "L",
           "key": "260910-ManA-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260615-ManC-Pos2.zip": {
+          "id": "8eb0f1a5-0438-4f42-8f7f-106e7cc99a2e",
+          "checksum": "md5:f5a2ab2922b932c16aaec3c209f69777",
+          "ext": "zip",
+          "size": 15686321679,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260615-ManC-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260507-ManB-Pos4.zip": {
+          "id": "6b13e45f-07b6-4ebd-a4b3-48f7ec2223a2",
+          "checksum": "md5:cb55957971d3410bc23a313c55f136bc",
+          "ext": "zip",
+          "size": 42655116216,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260507-ManB-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260313-ManA-Pos1.zip": {
+          "id": "56a87d08-0511-4cab-974b-cde12f289a22",
+          "checksum": "md5:dc72d32bc84a230da4e3fea47c40adfd",
+          "ext": "zip",
+          "size": 936248770,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260313-ManA-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260604-ManC-Pos2.zip": {
+          "id": "f4b1990a-45a3-4ff7-9495-fb14d004716a",
+          "checksum": "md5:6a396043cafaa2401e0c733a0d29715d",
+          "ext": "zip",
+          "size": 1586185933,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260604-ManC-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260401-ManB-Pos1.zip": {
+          "id": "c5e3aa01-6c2f-42f9-8ed9-afa6cad3b933",
+          "checksum": "md5:8e1d8f22395eb2d5157076330926b2a2",
+          "ext": "zip",
+          "size": 729801429,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260401-ManB-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260507-ManB-Pos3.zip": {
+          "id": "cfc4f8c9-770c-418d-9662-3229d8dc68dc",
+          "checksum": "md5:0a539b17ad9c5c94110f3783fc07632c",
+          "ext": "zip",
+          "size": 43303303376,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260507-ManB-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260604-ManC-Pos3.zip": {
+          "id": "c3335ca8-7ddf-4b6e-8efa-d16007beeb38",
+          "checksum": "md5:b29a3f42f31c85ec2230f804433a32a8",
+          "ext": "zip",
+          "size": 808698111,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260604-ManC-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260730-ManB-Pos2.zip": {
+          "id": "b691d697-74ed-4028-a69a-03a10ce21bf4",
+          "checksum": "md5:842528f5a3a494571b0fb968ff461249",
+          "ext": "zip",
+          "size": 800825018,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260730-ManB-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260730-ManB-Pos1.zip": {
+          "id": "99e802f6-a42b-4df9-baca-48ebdfa8b4f2",
+          "checksum": "md5:9d6282bf08591a4e1b414a9d7b5b4581",
+          "ext": "zip",
+          "size": 176402627,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260730-ManB-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260615-ManC-Pos5.zip": {
+          "id": "70341d39-7775-4710-b426-a7556f431a3f",
+          "checksum": "md5:88d814d159a8595bfc22ca5ab8dd75f5",
+          "ext": "zip",
+          "size": 18579252827,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260615-ManC-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260702-ManC-Pos1.zip": {
+          "id": "c30f6892-b156-4ac2-b75c-6f792c8561ea",
+          "checksum": "md5:13e31a895d89985e2f0b51a3bad54ea9",
+          "ext": "zip",
+          "size": 1982579696,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260702-ManC-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260624-ManC-Pos2.zip": {
+          "id": "c8ad9854-1d66-4283-9504-a4bbf25be7c5",
+          "checksum": "md5:ff438d437e0c8de8ce44c33a255c8280",
+          "ext": "zip",
+          "size": 11998739334,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260624-ManC-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260717-ManC-Pos5.zip": {
+          "id": "9149e247-3047-42f5-b224-6a67f75b8767",
+          "checksum": "md5:370be058bf38c01072581d67bd0e15b3",
+          "ext": "zip",
+          "size": 15424788579,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260717-ManC-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260818-ManD-Pos2.zip": {
+          "id": "9b0d7ee5-68ea-43fb-b390-c2fd6e499f4a",
+          "checksum": "md5:dc155aa78a390469c1d12e3be33ff2cf",
+          "ext": "zip",
+          "size": 1434781248,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260818-ManD-Pos2.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260818-ManD-Pos3.zip": {
+          "id": "696956b0-bb13-4f2e-8ba4-ec8a56ce2eda",
+          "checksum": "md5:83735c4fb77818de230f2b9e04561a01",
+          "ext": "zip",
+          "size": 1316889794,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260818-ManD-Pos3.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260730-ManB-Pos4.zip": {
+          "id": "fa269e2a-b089-4690-a9dd-b6e3ea2e9fc4",
+          "checksum": "md5:0621050e9801889a6e9d9b2d5fa7273f",
+          "ext": "zip",
+          "size": 20773019929,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260730-ManB-Pos4.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260811-ManB-Pos1.zip": {
+          "id": "a142a5c2-8494-4066-ac77-3f876ee88a17",
+          "checksum": "md5:8f23ca7b3a52f3be8aa76c60668145c6",
+          "ext": "zip",
+          "size": 573486309,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260811-ManB-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260825-ManD-Pos5.zip": {
+          "id": "13d08b75-7dff-4b23-87d1-95ff4db7359c",
+          "checksum": "md5:6e9624bbbf9baff607133195f9c3c2e9",
+          "ext": "zip",
+          "size": 6821938419,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260825-ManD-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260916-ManA-Pos1.zip": {
+          "id": "8974fc6e-6e78-4266-a9a1-576f43f0f9c8",
+          "checksum": "md5:d40b0e27a1a7b33743cc7a9159f686e1",
+          "ext": "zip",
+          "size": 684208828,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260916-ManA-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260825-ManD-Pos1.zip": {
+          "id": "a1ca34c7-fb63-41b1-8fd7-2c9c828b4fa1",
+          "checksum": "md5:0864f1f83da64c1d4f5b51bad743eca1",
+          "ext": "zip",
+          "size": 8212719101,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260825-ManD-Pos1.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260811-ManB-Pos5.zip": {
+          "id": "5d35a706-c00f-4a23-970e-4c1f284abe4d",
+          "checksum": "md5:54a1c26dc24cf0af26da00b7d4e28f2e",
+          "ext": "zip",
+          "size": 2913393475,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260811-ManB-Pos5.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          }
+        },
+        "260916-ManA-Pos5.zip": {
+          "id": "acad468b-80b1-4c71-bf81-402c2e49c525",
+          "checksum": "md5:e081f4593f114a9b5be3a08b8a42e19f",
+          "ext": "zip",
+          "size": 936601570,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "260916-ManA-Pos5.zip",
           "metadata": {},
           "access": {
             "hidden": false
@@ -5771,15 +5790,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 8,
-        "unique_views": 2,
+        "views": 20,
+        "unique_views": 11,
         "downloads": 1,
         "unique_downloads": 1,
         "data_volume": 936248770.0
       },
       "all_versions": {
-        "views": 30,
-        "unique_views": 15,
+        "views": 42,
+        "unique_views": 24,
         "downloads": 4,
         "unique_downloads": 4,
         "data_volume": 2225299268.0
