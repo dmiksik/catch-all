@@ -5790,15 +5790,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 40,
-        "unique_views": 31,
+        "views": 41,
+        "unique_views": 32,
         "downloads": 2,
         "unique_downloads": 2,
         "data_volume": 7758187189.0
       },
       "all_versions": {
-        "views": 63,
-        "unique_views": 45,
+        "views": 64,
+        "unique_views": 46,
         "downloads": 5,
         "unique_downloads": 5,
         "data_volume": 9047237687.0
@@ -6881,15 +6881,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 11,
-        "unique_views": 8,
+        "views": 12,
+        "unique_views": 9,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 11,
-        "unique_views": 8,
+        "views": 12,
+        "unique_views": 9,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
