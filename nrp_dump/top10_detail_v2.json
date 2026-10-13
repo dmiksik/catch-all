@@ -2092,15 +2092,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 10,
-        "unique_views": 10,
+        "views": 12,
+        "unique_views": 11,
         "downloads": 123,
         "unique_downloads": 82,
         "data_volume": 7535691611446.0
       },
       "all_versions": {
-        "views": 10,
-        "unique_views": 10,
+        "views": 12,
+        "unique_views": 11,
         "downloads": 123,
         "unique_downloads": 82,
         "data_volume": 7535691611446.0
@@ -4535,15 +4535,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 7,
-        "unique_views": 6,
+        "views": 9,
+        "unique_views": 8,
         "downloads": 9,
         "unique_downloads": 5,
         "data_volume": 87496074333.0
       },
       "all_versions": {
-        "views": 7,
-        "unique_views": 6,
+        "views": 9,
+        "unique_views": 8,
         "downloads": 9,
         "unique_downloads": 5,
         "data_volume": 87496074333.0
@@ -5792,16 +5792,16 @@
       "this_version": {
         "views": 42,
         "unique_views": 33,
-        "downloads": 24,
-        "unique_downloads": 8,
-        "data_volume": 11639044983.0
+        "downloads": 145,
+        "unique_downloads": 34,
+        "data_volume": 92084741017.0
       },
       "all_versions": {
         "views": 65,
         "unique_views": 47,
-        "downloads": 27,
-        "unique_downloads": 11,
-        "data_volume": 12928095481.0
+        "downloads": 148,
+        "unique_downloads": 37,
+        "data_volume": 93373791515.0
       }
     },
     "state": "published",
@@ -8814,15 +8814,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 5,
-        "unique_views": 5,
+        "views": 6,
+        "unique_views": 6,
         "downloads": 1,
         "unique_downloads": 1,
         "data_volume": 294017205753.0
       },
       "all_versions": {
-        "views": 5,
-        "unique_views": 5,
+        "views": 6,
+        "unique_views": 6,
         "downloads": 1,
         "unique_downloads": 1,
         "data_volume": 294017205753.0
