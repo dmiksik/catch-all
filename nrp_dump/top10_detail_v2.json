@@ -4537,16 +4537,16 @@
       "this_version": {
         "views": 9,
         "unique_views": 8,
-        "downloads": 9,
-        "unique_downloads": 5,
-        "data_volume": 87496074333.0
+        "downloads": 11,
+        "unique_downloads": 7,
+        "data_volume": 109374039045.0
       },
       "all_versions": {
         "views": 9,
         "unique_views": 8,
-        "downloads": 9,
-        "unique_downloads": 5,
-        "data_volume": 87496074333.0
+        "downloads": 11,
+        "unique_downloads": 7,
+        "data_volume": 109374039045.0
       }
     },
     "state": "published",
