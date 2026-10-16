@@ -4537,16 +4537,16 @@
       "this_version": {
         "views": 9,
         "unique_views": 8,
-        "downloads": 11,
-        "unique_downloads": 7,
-        "data_volume": 109374039045.0
+        "downloads": 255,
+        "unique_downloads": 190,
+        "data_volume": 3389003949577.0
       },
       "all_versions": {
         "views": 9,
         "unique_views": 8,
-        "downloads": 11,
-        "unique_downloads": 7,
-        "data_volume": 109374039045.0
+        "downloads": 255,
+        "unique_downloads": 190,
+        "data_volume": 3389003949577.0
       }
     },
     "state": "published",
@@ -6312,16 +6312,16 @@
       "this_version": {
         "views": 13,
         "unique_views": 13,
-        "downloads": 4,
-        "unique_downloads": 4,
-        "data_volume": 67168490525.0
+        "downloads": 52,
+        "unique_downloads": 52,
+        "data_volume": 1302570423299.0
       },
       "all_versions": {
         "views": 13,
         "unique_views": 13,
-        "downloads": 4,
-        "unique_downloads": 4,
-        "data_volume": 67168490525.0
+        "downloads": 52,
+        "unique_downloads": 52,
+        "data_volume": 1302570423299.0
       }
     },
     "state": "published",
@@ -6883,16 +6883,16 @@
       "this_version": {
         "views": 14,
         "unique_views": 11,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "downloads": 39,
+        "unique_downloads": 26,
+        "data_volume": 1142638000830.0
       },
       "all_versions": {
         "views": 14,
         "unique_views": 11,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "downloads": 39,
+        "unique_downloads": 26,
+        "data_volume": 1142638000830.0
       }
     },
     "state": "published",
