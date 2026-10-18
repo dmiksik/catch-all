@@ -2368,15 +2368,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 0,
-        "unique_views": 0,
+        "views": 2,
+        "unique_views": 1,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 0,
-        "unique_views": 0,
+        "views": 2,
+        "unique_views": 1,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
@@ -3590,15 +3590,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 0,
-        "unique_views": 0,
+        "views": 1,
+        "unique_views": 1,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 0,
-        "unique_views": 0,
+        "views": 1,
+        "unique_views": 1,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
