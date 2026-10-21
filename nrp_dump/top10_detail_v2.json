@@ -5171,16 +5171,16 @@
       "this_version": {
         "views": 0,
         "unique_views": 0,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "downloads": 7,
+        "unique_downloads": 7,
+        "data_volume": 98433075721.0
       },
       "all_versions": {
         "views": 0,
         "unique_views": 0,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "downloads": 7,
+        "unique_downloads": 7,
+        "data_volume": 98433075721.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -6697,18 +6697,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 4,
-        "unique_views": 4,
-        "downloads": 1,
-        "unique_downloads": 1,
-        "data_volume": 936248770.0
+        "views": 8,
+        "unique_views": 8,
+        "downloads": 6,
+        "unique_downloads": 5,
+        "data_volume": 5666785965.0
       },
       "all_versions": {
-        "views": 4,
-        "unique_views": 4,
-        "downloads": 1,
-        "unique_downloads": 1,
-        "data_volume": 936248770.0
+        "views": 8,
+        "unique_views": 8,
+        "downloads": 6,
+        "unique_downloads": 5,
+        "data_volume": 5666785965.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
