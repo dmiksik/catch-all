@@ -820,16 +820,16 @@
       "this_version": {
         "views": 1,
         "unique_views": 1,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "downloads": 87,
+        "unique_downloads": 58,
+        "data_volume": 9534775180959.0
       },
       "all_versions": {
         "views": 1,
         "unique_views": 1,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "downloads": 87,
+        "unique_downloads": 58,
+        "data_volume": 9534775180959.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -3590,15 +3590,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 2,
-        "unique_views": 2,
+        "views": 3,
+        "unique_views": 3,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 2,
-        "unique_views": 2,
+        "views": 3,
+        "unique_views": 3,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
@@ -5169,18 +5169,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 0,
-        "unique_views": 0,
-        "downloads": 7,
-        "unique_downloads": 7,
-        "data_volume": 98433075721.0
+        "views": 3,
+        "unique_views": 3,
+        "downloads": 35,
+        "unique_downloads": 35,
+        "data_volume": 458619411279.0
       },
       "all_versions": {
-        "views": 0,
-        "unique_views": 0,
-        "downloads": 7,
-        "unique_downloads": 7,
-        "data_volume": 98433075721.0
+        "views": 3,
+        "unique_views": 3,
+        "downloads": 35,
+        "unique_downloads": 35,
+        "data_volume": 458619411279.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -6697,18 +6697,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 8,
-        "unique_views": 8,
-        "downloads": 6,
-        "unique_downloads": 5,
-        "data_volume": 5666785965.0
+        "views": 16,
+        "unique_views": 13,
+        "downloads": 314,
+        "unique_downloads": 84,
+        "data_volume": 4134368712242.0
       },
       "all_versions": {
-        "views": 8,
-        "unique_views": 8,
-        "downloads": 6,
-        "unique_downloads": 5,
-        "data_volume": 5666785965.0
+        "views": 16,
+        "unique_views": 13,
+        "downloads": 314,
+        "unique_downloads": 84,
+        "data_volume": 4134368712242.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -7952,15 +7952,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 0,
-        "unique_views": 0,
+        "views": 1,
+        "unique_views": 1,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 0,
-        "unique_views": 0,
+        "views": 1,
+        "unique_views": 1,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
@@ -9525,18 +9525,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 1,
-        "unique_views": 1,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "views": 3,
+        "unique_views": 3,
+        "downloads": 183,
+        "unique_downloads": 183,
+        "data_volume": 1029598973919.0
       },
       "all_versions": {
-        "views": 1,
-        "unique_views": 1,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "views": 3,
+        "unique_views": 3,
+        "downloads": 183,
+        "unique_downloads": 183,
+        "data_volume": 1029598973919.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -10665,16 +10665,16 @@
       "this_version": {
         "views": 4,
         "unique_views": 4,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "downloads": 5,
+        "unique_downloads": 5,
+        "data_volume": 259655189085.0
       },
       "all_versions": {
         "views": 4,
         "unique_views": 4,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "downloads": 5,
+        "unique_downloads": 5,
+        "data_volume": 259655189085.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
