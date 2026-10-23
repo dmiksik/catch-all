@@ -818,15 +818,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 1,
-        "unique_views": 1,
+        "views": 2,
+        "unique_views": 2,
         "downloads": 87,
         "unique_downloads": 58,
         "data_volume": 9534775180959.0
       },
       "all_versions": {
-        "views": 1,
-        "unique_views": 1,
+        "views": 2,
+        "unique_views": 2,
         "downloads": 87,
         "unique_downloads": 58,
         "data_volume": 9534775180959.0
@@ -6697,18 +6697,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 16,
-        "unique_views": 13,
-        "downloads": 314,
-        "unique_downloads": 84,
-        "data_volume": 4134368712242.0
+        "views": 22,
+        "unique_views": 15,
+        "downloads": 391,
+        "unique_downloads": 111,
+        "data_volume": 4942221960965.0
       },
       "all_versions": {
-        "views": 16,
-        "unique_views": 13,
-        "downloads": 314,
-        "unique_downloads": 84,
-        "data_volume": 4134368712242.0
+        "views": 22,
+        "unique_views": 15,
+        "downloads": 391,
+        "unique_downloads": 111,
+        "data_volume": 4942221960965.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -7323,16 +7323,16 @@
       "this_version": {
         "views": 0,
         "unique_views": 0,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "downloads": 1,
+        "unique_downloads": 1,
+        "data_volume": 26648632.0
       },
       "all_versions": {
         "views": 0,
         "unique_views": 0,
-        "downloads": 0,
-        "unique_downloads": 0,
-        "data_volume": 0.0
+        "downloads": 1,
+        "unique_downloads": 1,
+        "data_volume": 26648632.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -7952,15 +7952,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 1,
-        "unique_views": 1,
+        "views": 2,
+        "unique_views": 2,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
       },
       "all_versions": {
-        "views": 1,
-        "unique_views": 1,
+        "views": 2,
+        "unique_views": 2,
         "downloads": 0,
         "unique_downloads": 0,
         "data_volume": 0.0
