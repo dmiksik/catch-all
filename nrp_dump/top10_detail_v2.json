@@ -6697,15 +6697,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 35,
-        "unique_views": 27,
+        "views": 37,
+        "unique_views": 29,
         "downloads": 404,
         "unique_downloads": 124,
         "data_volume": 4952888047513.0
       },
       "all_versions": {
-        "views": 35,
-        "unique_views": 27,
+        "views": 37,
+        "unique_views": 29,
         "downloads": 404,
         "unique_downloads": 124,
         "data_volume": 4952888047513.0
@@ -9525,15 +9525,15 @@
     },
     "stats": {
       "this_version": {
-        "views": 11,
-        "unique_views": 11,
+        "views": 12,
+        "unique_views": 12,
         "downloads": 184,
         "unique_downloads": 184,
         "data_volume": 1037993684186.0
       },
       "all_versions": {
-        "views": 11,
-        "unique_views": 11,
+        "views": 12,
+        "unique_views": 12,
         "downloads": 184,
         "unique_downloads": 184,
         "data_volume": 1037993684186.0
@@ -10151,45 +10151,45 @@
     "state_timestamp": "2026-06-19T13:55:15.892216+00:00"
   },
   {
-    "id": "datst.brt01-qxj73",
-    "created": "2025-09-03T12:42:28.516111+00:00",
-    "updated": "2026-06-23T11:04:04.544994+00:00",
+    "id": "wfq68-5h855",
+    "created": "2026-10-29T13:52:44.626485+00:00",
+    "updated": "2026-10-29T13:52:44.741698+00:00",
     "links": {
-      "self": "https://datarepo.eosc.cz/api/datasets/datst.brt01-qxj73",
-      "self_html": "https://datarepo.eosc.cz/datasets/records/datst.brt01-qxj73",
-      "doi": "https://doi.org/10.48700/datst.brt01-qxj73",
-      "self_doi": "https://doi.org/10.48700/datst.brt01-qxj73",
-      "self_doi_html": "https://datarepo.eosc.cz/doi/10.48700/datst.brt01-qxj73",
-      "reserve_doi": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/draft/pids/doi",
+      "self": "https://datarepo.eosc.cz/api/datasets/wfq68-5h855",
+      "self_html": "https://datarepo.eosc.cz/datasets/records/wfq68-5h855",
+      "doi": "https://doi.org/10.48700/wfq68-5h855",
+      "self_doi": "https://doi.org/10.48700/wfq68-5h855",
+      "self_doi_html": "https://datarepo.eosc.cz/doi/10.48700/wfq68-5h855",
+      "reserve_doi": "https://datarepo.eosc.cz/api/records/wfq68-5h855/draft/pids/doi",
       "parent": "https://datarepo.eosc.cz/api/datasets/j8fyb-8pr56",
       "parent_html": "https://datarepo.eosc.cz/records/j8fyb-8pr56",
       "parent_doi": "https://doi.org/10.48700/j8fyb-8pr56",
       "parent_doi_html": "https://datarepo.eosc.cz/doi/10.48700/j8fyb-8pr56",
-      "self_iiif_manifest": "https://datarepo.eosc.cz/api/iiif/record:datst.brt01-qxj73/manifest",
-      "self_iiif_sequence": "https://datarepo.eosc.cz/api/iiif/record:datst.brt01-qxj73/sequence/default",
-      "files": "https://datarepo.eosc.cz/api/datasets/datst.brt01-qxj73/files",
-      "media_files": "https://datarepo.eosc.cz/api/datasets/datst.brt01-qxj73/media-files",
-      "archive": "https://datarepo.eosc.cz/api/datasets/datst.brt01-qxj73/files-archive",
-      "archive_media": "https://datarepo.eosc.cz/api/datasets/datst.brt01-qxj73/media-files-archive",
-      "latest": "https://datarepo.eosc.cz/api/datasets/datst.brt01-qxj73/versions/latest",
-      "latest_html": "https://datarepo.eosc.cz/datasets/records/datst.brt01-qxj73/latest",
-      "versions": "https://datarepo.eosc.cz/api/datasets/datst.brt01-qxj73/versions",
-      "record": "https://datarepo.eosc.cz/api/datasets/datst.brt01-qxj73",
-      "access_links": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/access/links",
-      "access_grants": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/access/grants",
-      "access_users": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/access/users",
-      "access_groups": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/access/groups",
-      "access_request": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/access/request",
-      "access": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/access",
-      "communities": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/communities",
-      "communities-suggestions": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/communities-suggestions",
-      "request_deletion": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/request-deletion",
-      "file_modification": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/file-modification",
-      "quota_increase": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/quota-increase",
-      "requests": "https://datarepo.eosc.cz/api/requests/?topic=record:datst.brt01-qxj73",
-      "applicable-requests": "https://datarepo.eosc.cz/api/requests/applicable?topic=record:datst.brt01-qxj73"
+      "self_iiif_manifest": "https://datarepo.eosc.cz/api/iiif/record:wfq68-5h855/manifest",
+      "self_iiif_sequence": "https://datarepo.eosc.cz/api/iiif/record:wfq68-5h855/sequence/default",
+      "files": "https://datarepo.eosc.cz/api/datasets/wfq68-5h855/files",
+      "media_files": "https://datarepo.eosc.cz/api/datasets/wfq68-5h855/media-files",
+      "archive": "https://datarepo.eosc.cz/api/datasets/wfq68-5h855/files-archive",
+      "archive_media": "https://datarepo.eosc.cz/api/datasets/wfq68-5h855/media-files-archive",
+      "latest": "https://datarepo.eosc.cz/api/datasets/wfq68-5h855/versions/latest",
+      "latest_html": "https://datarepo.eosc.cz/datasets/records/wfq68-5h855/latest",
+      "versions": "https://datarepo.eosc.cz/api/datasets/wfq68-5h855/versions",
+      "record": "https://datarepo.eosc.cz/api/datasets/wfq68-5h855",
+      "access_links": "https://datarepo.eosc.cz/api/records/wfq68-5h855/access/links",
+      "access_grants": "https://datarepo.eosc.cz/api/records/wfq68-5h855/access/grants",
+      "access_users": "https://datarepo.eosc.cz/api/records/wfq68-5h855/access/users",
+      "access_groups": "https://datarepo.eosc.cz/api/records/wfq68-5h855/access/groups",
+      "access_request": "https://datarepo.eosc.cz/api/records/wfq68-5h855/access/request",
+      "access": "https://datarepo.eosc.cz/api/records/wfq68-5h855/access",
+      "communities": "https://datarepo.eosc.cz/api/records/wfq68-5h855/communities",
+      "communities-suggestions": "https://datarepo.eosc.cz/api/records/wfq68-5h855/communities-suggestions",
+      "request_deletion": "https://datarepo.eosc.cz/api/records/wfq68-5h855/request-deletion",
+      "file_modification": "https://datarepo.eosc.cz/api/records/wfq68-5h855/file-modification",
+      "quota_increase": "https://datarepo.eosc.cz/api/records/wfq68-5h855/quota-increase",
+      "requests": "https://datarepo.eosc.cz/api/requests/?topic=record:wfq68-5h855",
+      "applicable-requests": "https://datarepo.eosc.cz/api/requests/applicable?topic=record:wfq68-5h855"
     },
-    "revision_id": 8,
+    "revision_id": 5,
     "parent": {
       "id": "j8fyb-8pr56",
       "access": {
@@ -10215,23 +10215,23 @@
     },
     "versions": {
       "is_latest": true,
-      "index": 1
+      "index": 2
     },
     "is_published": true,
     "is_draft": false,
     "pids": {
       "doi": {
-        "identifier": "10.48700/datst.brt01-qxj73",
+        "identifier": "10.48700/wfq68-5h855",
         "provider": "datacite",
         "client": "datacite"
       },
       "oai": {
-        "identifier": "oai:datarepo.eosc.cz:datst.brt01-qxj73",
+        "identifier": "oai:datarepo.eosc.cz:wfq68-5h855",
         "provider": "oai"
       }
     },
     "metadata": {
-      "publication_date": "2025-10-31",
+      "publication_date": "2026-10-29",
       "title": "Red mark syndrom disease video data",
       "publisher": "Jihočeská univerzita v Českých Budějovicích",
       "additional_descriptions": [
@@ -10270,7 +10270,7 @@
           }
         },
         {
-          "description": "<div><div><p class=\"MsoNormal\"><span>The\ndataset is stored in four ZIP files.</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>TANK_01.zip</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>TANK_03.zip</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>TANK_20.zip</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>Images from\nvideos.zip</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>Images and annotations.zip</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span>TANK_01.zip -\ncontains 17 video (mp4 files). The name of the file represents the date and\ntime of the recording. Each file is 30 minutes long with the resolution of\n1270*720, 80fps, H264 codec.&nbsp;</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp; &nbsp;\n&nbsp; &nbsp; - The file 20231129-190001.mp4 was recorded by different settings\n- 1920*1080, 60fps</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp; &nbsp;\n&nbsp; &nbsp; -&nbsp;The file&nbsp;20231130-220508.mp4&nbsp;was recorded by\ndifferent settings - 1920*1080, 60fps</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp; &nbsp;\n&nbsp; &nbsp; -&nbsp;The file&nbsp;20231205-185541.mp4&nbsp;was recorded by\ndifferent settings - 55 minutes long</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp; &nbsp;\n&nbsp; &nbsp; - The file&nbsp;20231206-194522.mp4 need not to be read properly</span><span></span></p>\n\n<p class=\"MsoNormal\"><span><br>\n<br>\n</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span>TANK_03.zip - contains\n23 video (mp4 files). The name of the file represents the date and time of the\nrecording. Each file is 30 minutes long with the resolution of 1270*720, 80fps,\nH264 codec.&nbsp;</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp; &nbsp;\n&nbsp; &nbsp; - The file 20231127-161610.mp4 was recorded by different settings\n- 1920*1080, 60fps</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp; &nbsp;\n&nbsp; &nbsp; -&nbsp;The file&nbsp;20231204-192209.mp4 was recorded by\ndifferent settings - 47 minutes long</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp; &nbsp;\n&nbsp; &nbsp; -&nbsp;The file&nbsp;20231107-174838.mp4 was recorded by\ndifferent settings - 46 minutes long</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span>TANK_20.zip - contains\n4 video (mp4 files). The name of the file represents the date and time of the\nrecording. Each file is 30 minutes long with the resolution of 1270*720, 80fps,\nH264 codec.&nbsp;</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp; &nbsp;\n&nbsp; &nbsp; -&nbsp;The file&nbsp;20231024-171335.mp4 was recorded by\ndifferent settings - 59 minutes long</span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span>Images from\nvideos.zip – contains three subdirectories: TANK_01, TANK_03, andTANK_20. Each\nsubdirectory contains subdirectories with the images selected from the particular\nvideo file of the tank. The name of subdirectory corresponds to the name of\nvideo file the images were selected from. The sub sub directory contain the\nimages in png image format. The description of image selection is provided in\nMetodologie part of the dataset description. </span><span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span>Images and annotations.zip\n– it contains two folders:</span><span></span></p>\n\n<p class=\"MsoListParagraphCxSpFirst\"><span>-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></span><span>RMS only </span><span></span></p>\n\n<p class=\"MsoListParagraphCxSpMiddle\"><span>-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></span><span>RMS+fish</span><span></span></p>\n\n<p class=\"MsoListParagraphCxSpMiddle\"><span>&nbsp;</span></p>\n\n<p class=\"MsoListParagraphCxSpLast\"><span>-<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></span><span>Each folder contains images subfolder, labels subfolder and\nclasses.txt file. These files contain the all images selected form the video\nfiles and manually annotated by 6 or 9 classes. The format of annotation is YOLO\nbounding boxes. The description of image annotation is provided in Metodologie\npart of the dataset description.</span><span></span></p>\n\n<p class=\"MsoNormal\">&nbsp;</p></div></div>",
+          "description": "<div>\n<div>\n<p class=\"MsoNormal\">The dataset is stored in four ZIP files.</p>\n<p class=\"MsoNormal\">TANK_01.zip</p>\n<p class=\"MsoNormal\">TANK_03.zip</p>\n<p class=\"MsoNormal\">TANK_20.zip</p>\n<p class=\"MsoNormal\">Images from videos.zip</p>\n<p class=\"MsoNormal\">Images and annotations.zip</p>\n<p class=\"MsoNormal\">PIT-Tanks-Dates.xlsx</p>\n<p class=\"MsoNormal\">videos.xlsx</p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\">TANK_01.zip - contains 17 video (mp4 files). The name of the file represents the date and time of the recording. Each file is 30 minutes long with the resolution of 1270*720, 80fps, H264 codec.&nbsp;</p>\n<p class=\"MsoNormal\">&nbsp; &nbsp; &nbsp; &nbsp; - The file 20231129-190001.mp4 was recorded by different settings - 1920*1080, 60fps</p>\n<p class=\"MsoNormal\">&nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;The file&nbsp;20231130-220508.mp4&nbsp;was recorded by different settings - 1920*1080, 60fps</p>\n<p class=\"MsoNormal\">&nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;The file&nbsp;20231205-185541.mp4&nbsp;was recorded by different settings - 55 minutes long</p>\n<p class=\"MsoNormal\">&nbsp; &nbsp; &nbsp; &nbsp; - The file&nbsp;20231206-194522.mp4 need not to be read properly</p>\n<p class=\"MsoNormal\"><br><br></p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\">TANK_03.zip - contains 23 video (mp4 files). The name of the file represents the date and time of the recording. Each file is 30 minutes long with the resolution of 1270*720, 80fps, H264 codec.&nbsp;</p>\n<p class=\"MsoNormal\">&nbsp; &nbsp; &nbsp; &nbsp; - The file 20231127-161610.mp4 was recorded by different settings - 1920*1080, 60fps</p>\n<p class=\"MsoNormal\">&nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;The file&nbsp;20231204-192209.mp4 was recorded by different settings - 47 minutes long</p>\n<p class=\"MsoNormal\">&nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;The file&nbsp;20231107-174838.mp4 was recorded by different settings - 46 minutes long</p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\">TANK_20.zip - contains 4 video (mp4 files). The name of the file represents the date and time of the recording. Each file is 30 minutes long with the resolution of 1270*720, 80fps, H264 codec.&nbsp;</p>\n<p class=\"MsoNormal\">&nbsp; &nbsp; &nbsp; &nbsp; -&nbsp;The file&nbsp;20231024-171335.mp4 was recorded by different settings - 59 minutes long</p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\">Images from videos.zip &ndash; contains three subdirectories: TANK_01, TANK_03, andTANK_20. Each subdirectory contains subdirectories with the images selected from the particular video file of the tank. The name of subdirectory corresponds to the name of video file the images were selected from. The sub sub directory contain the images in png image format. The description of image selection is provided in Metodologie part of the dataset description.</p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\">Images and annotations.zip &ndash; it contains two folders:</p>\n<p class=\"MsoListParagraphCxSpFirst\">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RMS only</p>\n<p class=\"MsoListParagraphCxSpMiddle\">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RMS+fish</p>\n<p class=\"MsoListParagraphCxSpMiddle\">&nbsp;</p>\n<p class=\"MsoListParagraphCxSpLast\">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Each folder contains images subfolder, labels subfolder and classes.txt file. These files contain the all images selected form the video files and manually annotated by 6 or 9 classes. The format of annotation is YOLO bounding boxes. The description of image annotation is provided in Metodologie part of the dataset description.</p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\"><span>The file PIT-Tanks-Dates.xlsx contains the information about the fish examinations, tanks and associated PIT tags. The user can find the tank number and period when the fish was present in the particular tank.</span></p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\"><span>The videos.xlsx file contains the list of video records for particular tank</span></p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\">&nbsp;</p>\n<p class=\"MsoNormal\">&nbsp;</p>\n</div>\n</div>",
           "type": {
             "id": "technical-info",
             "title": {
@@ -10488,10 +10488,7 @@
             "name": "Evropská komise"
           },
           "award": {
-            "number": "871108",
-            "title": {
-              "en": "AQUAEXCEL3.0"
-            }
+            "number": "871108"
           }
         },
         {
@@ -10502,8 +10499,7 @@
           "award": {
             "number": "LM2023038",
             "title": {
-              "cs": "Jihočeské výzkumné centrum akvakultury a biodiverzity hydrocenóz",
-              "en": "South Bohemian Research Center of Aquaculture and Biodiversity of Hydrocenoses"
+              "cs": "Jihočeské výzkumné centrum akvakultury a biodiverzity hydrocenóz"
             }
           }
         }
@@ -10554,9 +10550,27 @@
     "files": {
       "enabled": true,
       "order": [],
-      "count": 5,
-      "total_bytes": 259655189085,
+      "count": 7,
+      "total_bytes": 259655216605,
       "entries": {
+        "Images and annotations.zip": {
+          "id": "a1ac010e-1350-4350-9e44-e707fbe063f6",
+          "checksum": "md5:2a85ef7de741011b03bcb31dbc55ffe5",
+          "ext": "zip",
+          "size": 3848143100,
+          "mimetype": "application/zip",
+          "storage_class": "L",
+          "key": "Images and annotations.zip",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          },
+          "links": {
+            "self": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/Images%20and%20annotations.zip",
+            "content": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/Images%20and%20annotations.zip/content",
+            "container": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/Images%20and%20annotations.zip/container"
+          }
+        },
         "Images from videos.zip": {
           "id": "bf8cebfa-231a-4fe8-a068-b3764b4cdf2f",
           "checksum": "md5:efa70c5a6dc61e3080e43cd30f545369",
@@ -10570,9 +10584,26 @@
             "hidden": false
           },
           "links": {
-            "self": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/Images%20from%20videos.zip",
-            "content": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/Images%20from%20videos.zip/content",
-            "container": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/Images%20from%20videos.zip/container"
+            "self": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/Images%20from%20videos.zip",
+            "content": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/Images%20from%20videos.zip/content",
+            "container": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/Images%20from%20videos.zip/container"
+          }
+        },
+        "PIT-Tanks-Dates.xlsx": {
+          "id": "be372123-2aed-460b-92a3-32281d7dcde8",
+          "checksum": "md5:22f961cfc0ab50aeaec756427744cb73",
+          "ext": "xlsx",
+          "size": 17866,
+          "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "storage_class": "L",
+          "key": "PIT-Tanks-Dates.xlsx",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          },
+          "links": {
+            "self": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/PIT-Tanks-Dates.xlsx",
+            "content": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/PIT-Tanks-Dates.xlsx/content"
           }
         },
         "TANK_01.ZIP": {
@@ -10588,9 +10619,9 @@
             "hidden": false
           },
           "links": {
-            "self": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/TANK_01.ZIP",
-            "content": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/TANK_01.ZIP/content",
-            "container": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/TANK_01.ZIP/container"
+            "self": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/TANK_01.ZIP",
+            "content": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/TANK_01.ZIP/content",
+            "container": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/TANK_01.ZIP/container"
           }
         },
         "TANK_03.ZIP": {
@@ -10606,27 +10637,9 @@
             "hidden": false
           },
           "links": {
-            "self": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/TANK_03.ZIP",
-            "content": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/TANK_03.ZIP/content",
-            "container": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/TANK_03.ZIP/container"
-          }
-        },
-        "Images and annotations.zip": {
-          "id": "a1ac010e-1350-4350-9e44-e707fbe063f6",
-          "checksum": "md5:2a85ef7de741011b03bcb31dbc55ffe5",
-          "ext": "zip",
-          "size": 3848143100,
-          "mimetype": "application/zip",
-          "storage_class": "L",
-          "key": "Images and annotations.zip",
-          "metadata": {},
-          "access": {
-            "hidden": false
-          },
-          "links": {
-            "self": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/Images%20and%20annotations.zip",
-            "content": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/Images%20and%20annotations.zip/content",
-            "container": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/Images%20and%20annotations.zip/container"
+            "self": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/TANK_03.ZIP",
+            "content": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/TANK_03.ZIP/content",
+            "container": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/TANK_03.ZIP/container"
           }
         },
         "TANK_20.ZIP": {
@@ -10642,9 +10655,26 @@
             "hidden": false
           },
           "links": {
-            "self": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/TANK_20.ZIP",
-            "content": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/TANK_20.ZIP/content",
-            "container": "https://datarepo.eosc.cz/api/records/datst.brt01-qxj73/files/TANK_20.ZIP/container"
+            "self": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/TANK_20.ZIP",
+            "content": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/TANK_20.ZIP/content",
+            "container": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/TANK_20.ZIP/container"
+          }
+        },
+        "videos.xlsx": {
+          "id": "b6807d2a-d65f-4531-8037-76ab63b89ff6",
+          "checksum": "md5:260285b2f0bef50f2c938677b670653d",
+          "ext": "xlsx",
+          "size": 9654,
+          "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "storage_class": "L",
+          "key": "videos.xlsx",
+          "metadata": {},
+          "access": {
+            "hidden": false
+          },
+          "links": {
+            "self": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/videos.xlsx",
+            "content": "https://datarepo.eosc.cz/api/records/wfq68-5h855/files/videos.xlsx/content"
           }
         }
       }
@@ -10663,22 +10693,22 @@
     },
     "stats": {
       "this_version": {
-        "views": 10,
-        "unique_views": 10,
-        "downloads": 7,
-        "unique_downloads": 7,
-        "data_volume": 387350564785.0
+        "views": 15,
+        "unique_views": 14,
+        "downloads": 64,
+        "unique_downloads": 64,
+        "data_volume": 2340745092545.0
       },
       "all_versions": {
-        "views": 10,
-        "unique_views": 10,
-        "downloads": 7,
-        "unique_downloads": 7,
-        "data_volume": 387350564785.0
+        "views": 32,
+        "unique_views": 30,
+        "downloads": 91,
+        "unique_downloads": 91,
+        "data_volume": 3766716413670.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
     "state": "published",
-    "state_timestamp": "2026-06-19T12:41:36.836020+00:00"
+    "state_timestamp": "2026-10-29T13:52:44.630323+00:00"
   }
 ]
