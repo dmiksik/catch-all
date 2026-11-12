@@ -1,6 +1,6 @@
 ## Record Size Statistics
 
-- **Records with size:** 190
-- **Total volume:** 10.79 TB (11,868,376,455,236 B)
-- **Mean:** 58.18 GB (62,465,139,238 B)
+- **Records with size:** 192
+- **Total volume:** 10.82 TB (11,900,304,882,665 B)
+- **Mean:** 57.72 GB (61,980,754,597 B)
 - **Median:** 82.70 MB (86,715,635 B)
