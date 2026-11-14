@@ -5171,16 +5171,16 @@
       "this_version": {
         "views": 13,
         "unique_views": 13,
-        "downloads": 144,
-        "unique_downloads": 144,
-        "data_volume": 1901971626410.0
+        "downloads": 163,
+        "unique_downloads": 163,
+        "data_volume": 2164101161137.0
       },
       "all_versions": {
         "views": 13,
         "unique_views": 13,
-        "downloads": 144,
-        "unique_downloads": 144,
-        "data_volume": 1901971626410.0
+        "downloads": 163,
+        "unique_downloads": 163,
+        "data_volume": 2164101161137.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -6697,18 +6697,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 87,
-        "unique_views": 73,
-        "downloads": 859,
-        "unique_downloads": 311,
-        "data_volume": 7178321462642.0
+        "views": 97,
+        "unique_views": 83,
+        "downloads": 934,
+        "unique_downloads": 375,
+        "data_volume": 7942339999325.0
       },
       "all_versions": {
-        "views": 87,
-        "unique_views": 73,
-        "downloads": 859,
-        "unique_downloads": 311,
-        "data_volume": 7178321462642.0
+        "views": 97,
+        "unique_views": 83,
+        "downloads": 934,
+        "unique_downloads": 375,
+        "data_volume": 7942339999325.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -7323,16 +7323,16 @@
       "this_version": {
         "views": 6,
         "unique_views": 6,
-        "downloads": 11,
-        "unique_downloads": 11,
-        "data_volume": 171999947013.0
+        "downloads": 14,
+        "unique_downloads": 14,
+        "data_volume": 176477891353.0
       },
       "all_versions": {
         "views": 6,
         "unique_views": 6,
-        "downloads": 11,
-        "unique_downloads": 11,
-        "data_volume": 171999947013.0
+        "downloads": 14,
+        "unique_downloads": 14,
+        "data_volume": 176477891353.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -7952,18 +7952,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 8,
-        "unique_views": 7,
-        "downloads": 44,
-        "unique_downloads": 43,
-        "data_volume": 1318385542470.0
+        "views": 9,
+        "unique_views": 8,
+        "downloads": 47,
+        "unique_downloads": 46,
+        "data_volume": 1403750172776.0
       },
       "all_versions": {
-        "views": 8,
-        "unique_views": 7,
-        "downloads": 44,
-        "unique_downloads": 43,
-        "data_volume": 1318385542470.0
+        "views": 9,
+        "unique_views": 8,
+        "downloads": 47,
+        "unique_downloads": 46,
+        "data_volume": 1403750172776.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -9525,18 +9525,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 18,
-        "unique_views": 18,
-        "downloads": 488,
-        "unique_downloads": 488,
-        "data_volume": 2745128178903.0
+        "views": 20,
+        "unique_views": 20,
+        "downloads": 732,
+        "unique_downloads": 732,
+        "data_volume": 4117926810795.0
       },
       "all_versions": {
-        "views": 18,
-        "unique_views": 18,
-        "downloads": 488,
-        "unique_downloads": 488,
-        "data_volume": 2745128178903.0
+        "views": 20,
+        "unique_views": 20,
+        "downloads": 732,
+        "unique_downloads": 732,
+        "data_volume": 4117926810795.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -10132,18 +10132,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 2,
-        "unique_views": 2,
-        "downloads": 5,
-        "unique_downloads": 5,
-        "data_volume": 1470086028765.0
+        "views": 3,
+        "unique_views": 3,
+        "downloads": 7,
+        "unique_downloads": 7,
+        "data_volume": 2058120440271.0
       },
       "all_versions": {
-        "views": 2,
-        "unique_views": 2,
-        "downloads": 5,
-        "unique_downloads": 5,
-        "data_volume": 1470086028765.0
+        "views": 3,
+        "unique_views": 3,
+        "downloads": 7,
+        "unique_downloads": 7,
+        "data_volume": 2058120440271.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
@@ -10153,7 +10153,7 @@
   {
     "id": "wfq68-5h855",
     "created": "2026-10-29T13:52:44.626485+00:00",
-    "updated": "2026-10-29T13:52:44.741698+00:00",
+    "updated": "2026-11-13T14:50:28.247026+00:00",
     "links": {
       "self": "https://datarepo.eosc.cz/api/datasets/wfq68-5h855",
       "self_html": "https://datarepo.eosc.cz/datasets/records/wfq68-5h855",
@@ -10189,7 +10189,7 @@
       "requests": "https://datarepo.eosc.cz/api/requests/?topic=record:wfq68-5h855",
       "applicable-requests": "https://datarepo.eosc.cz/api/requests/applicable?topic=record:wfq68-5h855"
     },
-    "revision_id": 5,
+    "revision_id": 8,
     "parent": {
       "id": "j8fyb-8pr56",
       "access": {
@@ -10522,16 +10522,16 @@
       ],
       "rights": [
         {
-          "id": "cc-by-nc-4.0",
+          "id": "cc0-1.0",
           "title": {
-            "cs": "Creative Commons Uveďte původ-Neužívejte komerčně 4.0 Mezinárodní licence",
-            "en": "Creative Commons Attribution Non Commercial 4.0 International"
+            "cs": "Creative Commons Univerzální – Prohlášení o poskytnutí díla do veřejné domény",
+            "en": "Creative Commons Zero v1.0 Universal"
           },
           "description": {
-            "cs": "Umožňuje ostatním rozmnožovat, rozšiřovat, vystavovat a sdělovat dílo a z něj odvozená díla pouze při uvedení autora a pouze pro nevýdělečné účely. V češtině: Uveďte původ-Neužívejte komerčně (v češtině dříve označováno jako Uveďte autora-Neužívejte komerčně); v angličtině: Attribution-NonCommercial; zkratka CC BY-NC."
+            "en": "CC0 waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach."
           },
           "props": {
-            "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
             "scheme": "spdx"
           }
         }
@@ -10693,18 +10693,18 @@
     },
     "stats": {
       "this_version": {
-        "views": 41,
-        "unique_views": 39,
+        "views": 46,
+        "unique_views": 42,
         "downloads": 109,
         "unique_downloads": 108,
         "data_volume": 3801329742057.0
       },
       "all_versions": {
-        "views": 69,
-        "unique_views": 66,
-        "downloads": 137,
-        "unique_downloads": 136,
-        "data_volume": 5351148295782.0
+        "views": 75,
+        "unique_views": 70,
+        "downloads": 147,
+        "unique_downloads": 146,
+        "data_volume": 5870458673952.0
       }
     },
     "$schema": "local://datasets-v1.1.0.json",
